@@ -27,13 +27,21 @@
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         
-        <h3>GDP in UK</h3>
+        <h3>HW1 - GDP in UK</h3>
         <p>UK GDP at market prices.</p>
         <div class="chart" id="Chart4"></div>
 
-        <h3>Inflation Chart</h3>
+        <h3>HW1 - Inflation Chart</h3>
         <p>My second new chart</p>
         <div class="chart" id="Chart3"> </div>
+        
+        <h3>HW2 - IMF Lending Outstanding - Uncorrected</h3>
+        <p>This is the uncorrected version of the IMF Lending outstanding</p>
+        <div class="chart" id="chart_IMF"> </div>
+
+        <h3>HW2 - IMF Lending Outsdanding Divided by Global GDP</h3>
+        <p>This is the IMF Lending Divided by Global GDP to see how lending has changed overtime</p>
+        <div class="chart" id="chart_IMF_adjusted"></div>
     </div> 
 </body>
 
@@ -42,12 +50,17 @@
     //Define charts:
     var myChart4 = "chart4_GDP.json";
     var myChart3 = "chart3_inflation.json";
+    var myChart5 = "IMF_Lending.json";
+    var myChart6 = "IMF_GDPPerCapLending.json";
 
     // Embed charts:
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#chart_IMF', myChart5);
+    vegaEmbed('#chart_IMF_adjusted', myChart6);
 </script>
 
 </html>
+
 
 
