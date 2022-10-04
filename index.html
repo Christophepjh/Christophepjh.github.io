@@ -20,47 +20,69 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+<!-- ///////// END HEAD //////// -->
 
+
+
+<!-- /////////// START BODY ////////// -->
 
 <body>
+
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
-        
-        <h3>HW1 - GDP in UK</h3>
-        <p>UK GDP at market prices.</p>
-        <div class="chart" id="Chart4"></div>
+    </div>
 
-        <h3>HW1 - Inflation Chart</h3>
-        <p>My second new chart</p>
-        <div class="chart" id="Chart3"> </div>
-        
-        <h3>HW2 - IMF Lending Outstanding - Uncorrected</h3>
-        <p>This is the uncorrected version of the IMF Lending outstanding</p>
-        <div class="chart" id="chart_IMF"> </div>
+    <!-- WEEK 1 -->
+    <div class="myWeek1">
+        <h3>Week 1 - Embedding Charts</h3>
+        <p>In my first week I embedded two charts into my project page</p> 
+    </div>
 
-        <h3>HW2 - IMF Lending Outsdanding Divided by Global GDP</h3>
-        <p>This is the IMF Lending Divided by Global GDP to see how lending has changed overtime</p>
-        <div class="chart" id="chart_IMF_adjusted"></div>
-    </div> 
+    <div class="container">
+        <!-- Chart 1 -->
+        <div class="chart" id="Chart4">
+            <script>
+                var myChart4 = "chart4_GDP.json";
+                vegaEmbed('#Chart4', myChart4);
+            </script>
+        </div>
+
+        <!-- Chart 2 -->
+        <div class="chart" id="Chart3"> 
+            <script>
+                var myChart3 = "chart3_inflation.json";
+                vegaEmbed('#Chart3', myChart3);
+            </script>
+        </div>
+
+    </div>
+
+
+    <!-- WEEK 2 -->
+    <div class="myWeek1">
+        <h3>Week 2 - Data Workflow</h3>
+        <p>In my second weeks I linked a live CSV file (chart1), "fixed" this chart (chart2), and used an API? </p> 
+    </div>
+    <!-- Chart 1 -->
+    <div class="container">
+        <div class="chart" id="chart_IMF"> 
+            <script>
+                var myChart5 = "IMF_Lending.json";   
+                vegaEmbed('#chart_IMF', myChart5);
+            </script>
+        </div>
+        <!-- Chart 2 -->
+        <div class="chart" id="chart_IMF_adjusted">
+            <script>
+                var myChart6 = "IMF_GDPPerCapLending.json";
+                vegaEmbed('#chart_IMF_adjusted', myChart6);
+            </script>
+        </div>
+    </div>
 </body>
 
 
-<script>
-    //Define charts:
-    var myChart4 = "chart4_GDP.json";
-    var myChart3 = "chart3_inflation.json";
-    var myChart5 = "IMF_Lending.json";
-    var myChart6 = "IMF_GDPPerCapLending.json";
-
-    // Embed charts:
-    vegaEmbed('#Chart4', myChart4);
-    vegaEmbed('#Chart3', myChart3);
-    vegaEmbed('#chart_IMF', myChart5);
-    vegaEmbed('#chart_IMF_adjusted', myChart6);
-</script>
 
 </html>
-
-
 
