@@ -30,14 +30,21 @@ h1, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FCBF49;
-    width:450px;
+    width: auto;
+    height: auto;
     border-width: 3px;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 10px;
     border-color: #003049;
+    padding: 10px 0px 10px 10px;
 
     
 }
+   
+/*container for graphs to be centered*/
     
     
