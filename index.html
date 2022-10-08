@@ -9,101 +9,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Christophe Hooper Data Science</title>
+    <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
 </head>
 
-<!-- ///////// END HEAD //////// -->
-
-
-
-<!-- /////////// START BODY ////////// -->
-
 <body>
-
-    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
-        <h1>Christophe Hooper - Data Science Portfolio</h1>
-    </div>
+        <h1>This is my Data Science website</h1>
 
-   
-
-    <!-- WEEK 1 -->
-    <div class="myWeek1">
-        <hr>
-        <h3>Week 1 - Embedding Charts</h3>
-        <hr>
-        <p>Chart 1:This chart shows gross GDP from 2005 to 2022 in the UK</p> 
-        
-
-        <div class="container">
-            <!-- Chart 1 -->
-            <div class="chart" id="Chart4">
-                <script>
-                    var myChart4 = "chart4_GDP.json";
-                    vegaEmbed('#Chart4', myChart4);
-                </script>
-            </div>
-
-        </div>
-
-        <div class="container">   
-            <!-- Chart 2 -->
-            
-            <p>Chart 2:This chart shows Football from home and away games in England</p> 
-            
-        
-            <div class="chart" id="Chart3"> 
-                <script>
-                    var myChart3 = "chart3_football.json";
-                    vegaEmbed('#Chart3', myChart3);
-                </script>
-            </div>
-        </div> 
-    </div>
-
+        <p> All about charts, numbers and data science</p>
     
-    <!-- WEEK 2 -->
-    <div class="myWeek1">
-        <hr>
-        <h3>Week 2 - Data Workflow</h3>
-        <hr>
-        <p>In my second weeks I linked a live CSV file (chart1) and "fixed" this chart (chart 2) </p> 
-        <p>Chart 1 is the gross IMF lending outstanding</p>
-    
-    <!-- Chart 1 -->
-        <div class="container">
-            <div class="chart" id="chart_IMF"> 
-                <script>
-                    var myChart5 = "IMF_Lending.json";   
-                    vegaEmbed('#chart_IMF', myChart5);
-                </script>
+    <!-- a tags enable you to insert links -->
+        <div class="button_container">
+            <div class="center">
+            <a href="indexClassExample.html" id="link">Home</a> 
+            <a href="project.html" id="link">Project</a> 
+            <a href="portfolio.html" id="link">Portfolio</a> 
+            <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
+            <p></p>
             </div>
-            <!-- Chart 2 -->
-            <div>
-            <p>Chart 2: This i the corrected version of the IMF Lending Graph. I have divided lending global GDP. </p>
-            </div>
-            <div class="chart" id="chart_IMF_adjusted">
-                <script>
-                    var myChart6 = "IMF_GDPPerCapLending.json";
-                    vegaEmbed('#chart_IMF_adjusted', myChart6);
-                </script>
-            </div>
-            <div>
-                <p>1984 is the riskiest year as it has the highest proportional lending to GDP. This would make 2007 the least risky year.</p>
-            </div> 
-
         </div>
     </div>
 </body>
-
 
 
 </html>
