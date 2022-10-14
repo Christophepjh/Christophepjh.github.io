@@ -12,7 +12,7 @@
     <title>Christophe Hooper Data Science</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -33,7 +33,20 @@
         <h1>Christophe Hooper - Data Science Portfolio</h1>
     </div>
 
-   
+    <body>
+        <div class="myWeek1">
+        <!-- a tags enable you to insert links -->
+            <div class="button_container">
+                <div class="center">
+                <a href="index.html" id="link">Home</a> 
+                <a href="project.html" id="link">Project</a> 
+                <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
+                <p></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    
 
     <!-- WEEK 1 -->
     <div class="myWeek1">
@@ -57,7 +70,7 @@
         <div class="container">   
             <!-- Chart 2 -->
             
-            <p>Chart 2:This chart shows Football from home and away games in the premier league</p> 
+            <p>Chart 2:This chart shows Football from home and away games in England</p> 
             
         
             <div class="chart" id="Chart3"> 
@@ -88,7 +101,7 @@
             </div>
             <!-- Chart 2 -->
             <div>
-            <p>Chart 2: This is the corrected version of the IMF Lending Graph. I have divided lending by global GDP. </p>
+            <p>Chart 2: This i the corrected version of the IMF Lending Graph. I have divided lending global GDP. </p>
             </div>
             <div class="chart" id="chart_IMF_adjusted">
                 <script>
@@ -97,11 +110,33 @@
                 </script>
             </div>
             <div>
-                <p>1984 is the riskiest year as it has the highest proportional lening to GDP. This makes 2007 the least risky year.</p>
+                <p>1984 is the riskiest year as it has the highest proportional lening to GDP. This would make 2007 the least risky year.</p>
             </div> 
 
         </div>
     </div>
+<!-- WEEK 3 -->
+<div class="myWeek1">
+    <hr>
+    <h3>Week 3 - Data Workflow</h3>
+    <hr>
+    <p>In my third week I used data from a CSV file to make a chart </p> 
+    <p>This chart showsn guilt returns</p>
+
+<!-- Chart 1 -->
+    <div class="container">
+        <div class="chart" id="chart_week3"> 
+            <script>
+                var myChart6 = "week3_visualisation.json";   
+                vegaEmbed('#chart_week3', myChart6);
+            </script>
+        </div>
+
+    </div>
+</div>
+
+
+
 </body>
 
 
