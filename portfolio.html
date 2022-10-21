@@ -120,9 +120,9 @@
     <hr>
     <h3>Week 3 - Data Workflow</h3>
     <hr>
-    <p>In my third week I used data from a CSV file to make a chart </p> 
-    <p>This chart showsn guilt returns</p>
-
+    <p>In my third week I fed data into the Vega visualisation, and used different data dimensions to be mapped onto visual attributes </p> 
+    <p>The chart shows UK guilt returns as a line chart</p>
+    <p>The second chart shows UK guilt returns as a bar chart </p>
 <!-- Chart 1 -->
     <div class="container">
         <div class="chart" id="chart_week3"> 
@@ -131,8 +131,17 @@
                 vegaEmbed('#chart_week3', myChart6);
             </script>
         </div>
+        
+        <div class="chart" id="chart2_week3"> 
+            <script>
+                var myChart7 = "week3_vis2.json";   
+                vegaEmbed('#chart2_week3', myChart7);
+            </script>
+        </div>
 
     </div>
+<p>Since we have temporal data on teh x axis, a line chart is more intuitve than a bar chart</p>
+
 </div>
 
 
