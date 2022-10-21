@@ -12062,7 +12062,7 @@
       {"Maturity": "12/07/2055", "Yield": 2.701615}
     ]
   },
-  "mark": "line",
+  "mark": {"type" : "line", "color": "#122b39", "strokeWidth": 0.5, "opacity": 1},
   "encoding": {
     "x": {"field": "Maturity", "type": "temporal"},
     "y": {"field": "Yield", "type": "quantitative"}
