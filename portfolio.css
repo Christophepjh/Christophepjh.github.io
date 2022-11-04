@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #F6F6F2;
+    background-color: #daecfa;
     max-width: 70%;
     margin-left: 235px;
 }
@@ -17,7 +17,7 @@ body{
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:#388087;
+    color:#031927;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10px;
@@ -27,13 +27,13 @@ h1, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 60%;
-    background-color: #F6F6F2;
+    background-color: #9DD1F1;
 
-    /* border-width: 3px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(43, 0, 69);
-    margin-bottom: 15px; */
+    border-color: #BA1200;
+    margin-bottom: 15px;
 }
 
 
@@ -44,7 +44,7 @@ h1, h3, p{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #388087;
+    border-color: #031927;
     margin: 15px;
 }
 
@@ -77,10 +77,10 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     border: transparent;
-    color: #C2EDCE;
+    color: #BA1200;
     width: 90%;
     border-top: 3px solid ;
-    border-color: #C2EDCE;
+    border-color: #BA1200;
     border-radius: 40px;
     margin-bottom: 15px;
 }
@@ -96,12 +96,12 @@ hr{
 
 
 #link{
-    background-color: #C2EDCE;
+    background-color: #508AA8;
 
     padding: 10px;
 
     border: 2px;
-    border-color: #388087;
+    border-color: #C8E0F4;
     border-style: solid;
     border-radius: 10px;
 
@@ -117,10 +117,10 @@ hr{
 
 #link:hover{
 
-    background-color: rgba(156, 67, 238, 0.5);
+    background-color: #ec8f85a9;
 
     border: 2px;
-    border-color: rgb(243, 153, 36);
+    border-color: #BA1200;
     border-style: solid;
 
     font-size: 20px;
@@ -176,7 +176,7 @@ hr{
 .chart_grid {
     background-color: white;
     border-style: solid;
-    border-color: grey;
+    border-color: #031927;
     border-width: .2em;
     border-radius: .5em;
     height: 330px;
