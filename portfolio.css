@@ -27,13 +27,13 @@ h1, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 60%;
-    background-color: #9DD1F1;
+    background-color: #daecfa;
 
-    border-width: 3px;
+/*     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
     border-color: #BA1200;
-    margin-bottom: 15px;
+    margin-bottom: 15px; */
 }
 
 
