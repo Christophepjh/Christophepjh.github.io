@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #daecfa;
+    background-color: #f0f6fb;
     max-width: 70%;
     margin-left: 235px;
 }
@@ -29,11 +29,11 @@ h1, h3, p{
     max-width: 60%;
     background-color: #daecfa;
 
-/*     border-width: 3px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: #BA1200;
-    margin-bottom: 15px; */
+    border-color: #daecfa;
+    margin-bottom: 15px;
 }
 
 
@@ -96,22 +96,22 @@ hr{
 
 
 #link{
-    background-color: #508AA8;
+    background-color: #C8E0F4;
 
-    padding: 10px;
+    padding: 5px;
 
     border: 2px;
     border-color: #C8E0F4;
     border-style: solid;
     border-radius: 10px;
 
-    font-size: 20px
+    font-size: 17px
     
 }
 
 #link1{
 
-    font-size: 20px
+    font-size: 17px
 
 }
 
@@ -123,7 +123,7 @@ hr{
     border-color: #BA1200;
     border-style: solid;
 
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .center{
@@ -188,4 +188,29 @@ hr{
   
   
 }
+
+.mapContainer {
+    display: block;
+    margin: auto;
+   
+    padding: 20px;
+  
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    
+    max-width: 665px; 
+    
+  }
+  
+  .map {
+    background-color: #ffffff;
+  
+    display:inline-block;
+    justify-content: center;
+    
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin:5px;
+  }
 
