@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #f0f6fb;
+    background-color: #c7d0d5;
     max-width: 70%;
     margin-left: 235px;
 }
@@ -27,12 +27,12 @@ h1, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 60%;
-    background-color: #daecfa;
+    background-color: #efefef;
 
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: #daecfa;
+    border-color: #efefef;
     margin-bottom: 15px;
 }
 
@@ -44,7 +44,7 @@ h1, h3, p{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #031927;
+    border-color: #ffffff;
     margin: 15px;
 }
 
@@ -77,10 +77,10 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     border: transparent;
-    color: #BA1200;
+    color: #07c300;
     width: 90%;
     border-top: 3px solid ;
-    border-color: #BA1200;
+    border-color: #07c300;
     border-radius: 40px;
     margin-bottom: 15px;
 }
@@ -105,7 +105,7 @@ hr{
     border-style: solid;
     border-radius: 10px;
 
-    font-size: 17px
+    font-size: 20px
     
 }
 
@@ -176,8 +176,8 @@ hr{
 .chart_grid {
     background-color: white;
     border-style: solid;
-    border-color: #031927;
-    border-width: .2em;
+    border-color: #e80000;
+    border-width: 3px;
     border-radius: .5em;
     height: 330px;
     min-width: 100%;
@@ -213,4 +213,3 @@ hr{
     padding: 5px;
     margin:5px;
   }
-
