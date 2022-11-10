@@ -1,10 +1,15 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my first proper css file */
+
+
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 /* Set the background color for my page: */
 body{
-    background-color: #c7e3fa;
+    background-color: #c7d0d5;
     max-width: 70%;
     margin-left: 235px;
 }
@@ -22,12 +27,12 @@ h1, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 60%;
-    background-color: #e3eff8;
+    background-color: #efefef;
 
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: #BA1200;
+    border-color: #efefef;
     margin-bottom: 15px;
 }
 
@@ -39,7 +44,7 @@ h1, h3, p{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #031927;
+    border-color: #ffffff;
     margin: 15px;
 }
 
@@ -72,10 +77,10 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     border: transparent;
-    color: #BA1200;
+    color: #07c300;
     width: 90%;
     border-top: 3px solid ;
-    border-color: #BA1200;
+    border-color: #07c300;
     border-radius: 40px;
     margin-bottom: 15px;
 }
@@ -93,14 +98,14 @@ hr{
 #link{
     background-color: #C8E0F4;
 
-    padding: 10px;
-    margin-top: 50px;
+    padding: 5px;
+
     border: 2px;
     border-color: #C8E0F4;
     border-style: solid;
     border-radius: 10px;
 
-    font-size: 17px
+    font-size: 20px
     
 }
 
@@ -171,8 +176,8 @@ hr{
 .chart_grid {
     background-color: white;
     border-style: solid;
-    border-color: #031927;
-    border-width: .2em;
+    border-color: #e80000;
+    border-width: 3px;
     border-radius: .5em;
     height: 330px;
     min-width: 100%;
