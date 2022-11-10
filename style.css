@@ -1,16 +1,10 @@
-
-/* Richard Davies, Data Science for Economists */
-
-/* This is my first proper css file */
-
-
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 /* Set the background color for my page: */
 body{
-    background-color: #574d5e;
+    background-color: #c7e3fa;
     max-width: 70%;
     margin-left: 235px;
 }
@@ -18,7 +12,7 @@ body{
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:#000000;
+    color:#031927;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10px;
@@ -27,13 +21,14 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 70%;
-    background-color: #e7d4f3;
+    max-width: 60%;
+    background-color: #e3eff8;
 
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(43, 0, 69);
+    border-color: #BA1200;
+    margin-bottom: 15px;
 }
 
 
@@ -43,11 +38,19 @@ h1, h3, p{
     width:370px;
     border-width: 3px;
     border-style: solid;
-    border-radius: 8px;
-    border-color: rgb(43, 0, 69);
-    margin: 0 127px;
+    border-radius: 5px;
+    border-color: #031927;
+    margin: 15px;
+}
 
-    
+.chart2{
+    background-color: rgb(255, 255, 255);
+    width:250x;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(43, 0, 69);
+    margin: 15px;
 }
    
 /*container for graphs to be centered*/
@@ -61,7 +64,7 @@ h1, h3, p{
     padding-bottom: 0px;
     justify-content: center;
     align-content: center;
-  
+    margin-bottom: 15px;
 }
 
 /* hr is just a horizontal line breaking the page up*/
@@ -69,21 +72,55 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     border: transparent;
-    color: black;
+    color: #BA1200;
     width: 90%;
     border-top: 3px solid ;
-    border-color: #000000;
+    border-color: #BA1200;
     border-radius: 40px;
-    
+    margin-bottom: 15px;
+}
+.container2{
+    margin: auto;
+    max-width: 850px;
+    background-color:#eddff6;
+    border: solid;
+    border-radius: 5px;
+    border-color:rgb(0, 0, 0);
+    margin-bottom:15px;
 }
 
 
-.button_container{
-    height: 80px;
-    position: relative;
+#link{
+    background-color: #C8E0F4;
+
+    padding: 10px;
+    margin-top: 50px;
+    border: 2px;
+    border-color: #C8E0F4;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-size: 17px
     
 }
-  
+
+#link1{
+
+    font-size: 17px
+
+}
+
+#link:hover{
+
+    background-color: #ec8f85a9;
+
+    border: 2px;
+    border-color: #BA1200;
+    border-style: solid;
+
+    font-size: 18px;
+}
+
 .center{
     margin: 0;
     position: absolute;
@@ -94,30 +131,80 @@ hr{
 }
 
 
+.button_container{
+    height: 80px;
+    position: relative;
+    
+}
 
-#link{
-    background-color: rgba(182, 119, 241, .5);
-
-    padding: 10px;
-
-    border: 2px;
-    border-color: rgb(97, 5, 124);
+.container_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3px;
+    justify-content: center !important;
+    vertical-align: bottom;
+    text-align: center !important;
+    align-content: center;
+    max-width: 90%;
+    margin:auto;
+    max-width: 1200px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  
+}
+  
+  
+  
+.grid_container:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    
+  
+}
+  
+.grid_container:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+}
+  
+.chart_grid {
+    background-color: white;
     border-style: solid;
+    border-color: #031927;
+    border-width: .2em;
+    border-radius: .5em;
+    height: 330px;
+    min-width: 100%;
+    text-align: center;
+    padding: 0.2em !important;
+    margin-left: 0px;
+  
+  
+  
+}
+
+.mapContainer {
+    display: block;
+    margin: auto;
+   
+    padding: 20px;
+  
+    background-color: rgb(220, 220, 220);
     border-radius: 10px;
-
-    font-size: 20px
     
-
+    max-width: 665px; 
     
-}
-
-#link:hover{
-
-    background-color: rgba(156, 67, 238, 0.5);
-
-    border: 2px;
-    border-color: rgb(243, 153, 36);
-    border-style: solid;
-
-    font-size: 20px;
-}
+  }
+  
+  .map {
+    background-color: #ffffff;
+  
+    display:inline-block;
+    justify-content: center;
+    
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin:5px;
+  }
