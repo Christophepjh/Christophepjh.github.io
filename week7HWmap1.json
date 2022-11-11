@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "height":350,
+    "width":300,
+  
+    "data":{
+      "url":"https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/scotlandtopojson.json",
+  
+      "format":{
+        "type":"topojson", "feature":"lad"}},
+      
+        "projection": {
+          "type":"equalEarth"
+        },
+  
+        "mark":{
+          "type": "geoshape",
+          "fill":"#005EB8",
+          "stroke":"white",
+          "strokeWidth":0.7
+        },
+  
+        "encoding": {
+          "tooltip":{"field":"properties.LAD13NM", "type": "nominal", "title":"Region"}
+        }
+  
+    
+    }
