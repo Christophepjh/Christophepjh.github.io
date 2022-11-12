@@ -200,9 +200,9 @@ hr{
     
     max-width: 665px; 
     
-  }
+}
   
-  .map {
+.map {
     background-color: #ffffff;
   
     display:inline-block;
@@ -212,4 +212,29 @@ hr{
     
     padding: 5px;
     margin:5px;
-  }
+}
+
+
+/* Style the header: fixed position (always stay at the top) */
+.heading {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #c7d0d5;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 70%;
+    height: 8px;
+    background: #ccc;
+   
+}
+  
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #fd0000;
+    width: 0%;
+}
