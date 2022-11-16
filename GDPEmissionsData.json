@@ -1,0 +1,1842 @@
+[
+  {
+    "ranking": 174,
+    "country": "Afghanistan",
+    "code": "AFG",
+    "gdppc": 2390,
+    "lngdppc": 7.779048645,
+    "pop2022": 41128771,
+    "AnnualCO2Emissions": 11874211,
+    "lnCO2Emissions": 16.28987946
+  },
+  {
+    "ranking": 90,
+    "country": "Albania",
+    "code": "ALB",
+    "gdppc": 14218,
+    "lngdppc": 9.562264046,
+    "pop2022": 2842321,
+    "AnnualCO2Emissions": 4619109,
+    "lnCO2Emissions": 15.34571239
+  },
+  {
+    "ranking": 109,
+    "country": "Algeria",
+    "code": "DZA",
+    "gdppc": 11112,
+    "lngdppc": 9.315780884,
+    "pop2022": 44903225,
+    "AnnualCO2Emissions": 176269070,
+    "lnCO2Emissions": 18.98752219
+  },
+  {
+    "ranking": 127,
+    "country": "Angola",
+    "code": "AGO",
+    "gdppc": 6932,
+    "lngdppc": 8.843903651,
+    "pop2022": 35588987,
+    "AnnualCO2Emissions": 21362716,
+    "lnCO2Emissions": 16.87715772
+  },
+  {
+    "ranking": 73,
+    "country": "Antigua and Barbuda",
+    "code": "ATG",
+    "gdppc": 18618,
+    "lngdppc": 9.831884134,
+    "pop2022": 93763,
+    "AnnualCO2Emissions": 468695,
+    "lnCO2Emissions": 13.05770752
+  },
+  {
+    "ranking": 64,
+    "country": "Argentina",
+    "code": "ARG",
+    "gdppc": 20751,
+    "lngdppc": 9.940349717,
+    "pop2022": 45510318,
+    "AnnualCO2Emissions": 186448290,
+    "lnCO2Emissions": 19.04366449
+  },
+  {
+    "ranking": 93,
+    "country": "Armenia",
+    "code": "ARM",
+    "gdppc": 13261,
+    "lngdppc": 9.492582676,
+    "pop2022": 2780469,
+    "AnnualCO2Emissions": 6806045,
+    "lnCO2Emissions": 15.73332175
+  },
+  {
+    "ranking": 51,
+    "country": "Aruba",
+    "code": "ABW",
+    "gdppc": 29090,
+    "lngdppc": 10.27814975,
+    "pop2022": 106445,
+    "AnnualCO2Emissions": 858126,
+    "lnCO2Emissions": 13.66250622
+  },
+  {
+    "ranking": 20,
+    "country": "Australia",
+    "code": "AUS",
+    "gdppc": 51680,
+    "lngdppc": 10.85282614,
+    "pop2022": 26177413,
+    "AnnualCO2Emissions": 391187420,
+    "lnCO2Emissions": 19.78469734
+  },
+  {
+    "ranking": 17,
+    "country": "Austria",
+    "code": "AUT",
+    "gdppc": 55218,
+    "lngdppc": 10.91904427,
+    "pop2022": 8939617,
+    "AnnualCO2Emissions": 64625588,
+    "lnCO2Emissions": 17.98412099
+  },
+  {
+    "ranking": 87,
+    "country": "Azerbaijan",
+    "code": "AZE",
+    "gdppc": 14431,
+    "lngdppc": 9.577133949,
+    "pop2022": 10358074,
+    "AnnualCO2Emissions": 38492804,
+    "lnCO2Emissions": 17.46598187
+  },
+  {
+    "ranking": 23,
+    "country": "Bahrain",
+    "code": "BHR",
+    "gdppc": 48766,
+    "lngdppc": 10.79478863,
+    "pop2022": 1472233,
+    "AnnualCO2Emissions": 39016090,
+    "lnCO2Emissions": 17.47948468
+  },
+  {
+    "ranking": 140,
+    "country": "Bangladesh",
+    "code": "BGD",
+    "gdppc": 5307,
+    "lngdppc": 8.576781983,
+    "pop2022": 171186372,
+    "AnnualCO2Emissions": 93175944,
+    "lnCO2Emissions": 18.35000013
+  },
+  {
+    "ranking": 91,
+    "country": "Barbados",
+    "code": "BRB",
+    "gdppc": 13553,
+    "lngdppc": 9.514363204,
+    "pop2022": 281635,
+    "AnnualCO2Emissions": 1125301,
+    "lnCO2Emissions": 13.93356111
+  },
+  {
+    "ranking": 66,
+    "country": "Belarus",
+    "code": "BLR",
+    "gdppc": 20187,
+    "lngdppc": 9.912794112,
+    "pop2022": 9534954,
+    "AnnualCO2Emissions": 59602456,
+    "lnCO2Emissions": 17.90320734
+  },
+  {
+    "ranking": 21,
+    "country": "Belgium",
+    "code": "BEL",
+    "gdppc": 51096,
+    "lngdppc": 10.8414615,
+    "pop2022": 11655930,
+    "AnnualCO2Emissions": 95722280,
+    "lnCO2Emissions": 18.37696164
+  },
+  {
+    "ranking": 131,
+    "country": "Belize",
+    "code": "BLZ",
+    "gdppc": 6046,
+    "lngdppc": 8.707152175,
+    "pop2022": 405272,
+    "AnnualCO2Emissions": 689321,
+    "lnCO2Emissions": 13.44346233
+  },
+  {
+    "ranking": 160,
+    "country": "Benin",
+    "code": "BEN",
+    "gdppc": 3437,
+    "lngdppc": 8.142354277,
+    "pop2022": 13352864,
+    "AnnualCO2Emissions": 7755815,
+    "lnCO2Emissions": 15.86395344
+  },
+  {
+    "ranking": 102,
+    "country": "Bhutan",
+    "code": "BTN",
+    "gdppc": 12060,
+    "lngdppc": 9.39764947,
+    "pop2022": 782455,
+    "AnnualCO2Emissions": 1522086,
+    "lnCO2Emissions": 14.23559232
+  },
+  {
+    "ranking": 122,
+    "country": "Bolivia",
+    "code": "BOL",
+    "gdppc": 8344,
+    "lngdppc": 9.029297997,
+    "pop2022": 12224110,
+    "AnnualCO2Emissions": 23321668,
+    "lnCO2Emissions": 16.96489344
+  },
+  {
+    "ranking": 83,
+    "country": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "gdppc": 15047,
+    "lngdppc": 9.618933915,
+    "pop2022": 3233526,
+    "AnnualCO2Emissions": 13566311,
+    "lnCO2Emissions": 16.42310015
+  },
+  {
+    "ranking": 78,
+    "country": "Botswana",
+    "code": "BWA",
+    "gdppc": 16893,
+    "lngdppc": 9.734654614,
+    "pop2022": 2630296,
+    "AnnualCO2Emissions": 6499919,
+    "lnCO2Emissions": 15.68730027
+  },
+  {
+    "ranking": 85,
+    "country": "Brazil",
+    "code": "BRA",
+    "gdppc": 14916,
+    "lngdppc": 9.610189741,
+    "pop2022": 215313498,
+    "AnnualCO2Emissions": 488881100,
+    "lnCO2Emissions": 20.00762987
+  },
+  {
+    "ranking": 8,
+    "country": "Brunei",
+    "code": "BRN",
+    "gdppc": 62371,
+    "lngdppc": 11.0408557,
+    "pop2022": 449002,
+    "AnnualCO2Emissions": 10480519,
+    "lnCO2Emissions": 16.16502876
+  },
+  {
+    "ranking": 60,
+    "country": "Bulgaria",
+    "code": "BGR",
+    "gdppc": 23817,
+    "lngdppc": 10.07815489,
+    "pop2022": 6781953,
+    "AnnualCO2Emissions": 42560212,
+    "lnCO2Emissions": 17.56643038
+  },
+  {
+    "ranking": 178,
+    "country": "Burkina Faso",
+    "code": "BFA",
+    "gdppc": 2262,
+    "lngdppc": 7.724004657,
+    "pop2022": 22673762,
+    "AnnualCO2Emissions": 5698262,
+    "lnCO2Emissions": 15.55567177
+  },
+  {
+    "ranking": 194,
+    "country": "Burundi",
+    "code": "BDI",
+    "gdppc": 760,
+    "lngdppc": 6.633318433,
+    "pop2022": 12889576,
+    "AnnualCO2Emissions": 692908,
+    "lnCO2Emissions": 13.44865251
+  },
+  {
+    "ranking": 148,
+    "country": "Cambodia",
+    "code": "KHM",
+    "gdppc": 4695,
+    "lngdppc": 8.454253392,
+    "pop2022": 16767842,
+    "AnnualCO2Emissions": 19028598,
+    "lnCO2Emissions": 16.76145356
+  },
+  {
+    "ranking": 157,
+    "country": "Cameroon",
+    "code": "CMR",
+    "gdppc": 3646,
+    "lngdppc": 8.201385955,
+    "pop2022": 27914536,
+    "AnnualCO2Emissions": 9297284,
+    "lnCO2Emissions": 16.04523287
+  },
+  {
+    "ranking": 24,
+    "country": "Canada",
+    "code": "CAN",
+    "gdppc": 48720,
+    "lngdppc": 10.7938449,
+    "pop2022": 38454327,
+    "AnnualCO2Emissions": 545634500,
+    "lnCO2Emissions": 20.1174599
+  },
+  {
+    "ranking": 191,
+    "country": "Central African Republic",
+    "code": "CAF",
+    "gdppc": 979,
+    "lngdppc": 6.886531643,
+    "pop2022": 5579144,
+    "AnnualCO2Emissions": 227296,
+    "lnCO2Emissions": 12.33400841
+  },
+  {
+    "ranking": 184,
+    "country": "Chad",
+    "code": "TCD",
+    "gdppc": 1611,
+    "lngdppc": 7.384610383,
+    "pop2022": 17723315,
+    "AnnualCO2Emissions": 1939918,
+    "lnCO2Emissions": 14.47815626
+  },
+  {
+    "ranking": 61,
+    "country": "Chile",
+    "code": "CHL",
+    "gdppc": 23366,
+    "lngdppc": 10.05903725,
+    "pop2022": 19603733,
+    "AnnualCO2Emissions": 85446920,
+    "lnCO2Emissions": 18.26340592
+  },
+  {
+    "ranking": 77,
+    "country": "China",
+    "code": "CHN",
+    "gdppc": 17192,
+    "lngdppc": 9.752199438,
+    "pop2022": 1425887337,
+    "AnnualCO2Emissions": 11472369000,
+    "lnCO2Emissions": 23.16320729
+  },
+  {
+    "ranking": 88,
+    "country": "Colombia",
+    "code": "COL",
+    "gdppc": 14324,
+    "lngdppc": 9.569691731,
+    "pop2022": 51874024,
+    "AnnualCO2Emissions": 91703380,
+    "lnCO2Emissions": 18.3340698
+  },
+  {
+    "ranking": 163,
+    "country": "Comoros",
+    "code": "COM",
+    "gdppc": 3048,
+    "lngdppc": 8.022240917,
+    "pop2022": 836774,
+    "AnnualCO2Emissions": 298171,
+    "lnCO2Emissions": 12.60542243
+  },
+  {
+    "ranking": 67,
+    "country": "Costa Rica",
+    "code": "CRI",
+    "gdppc": 19990,
+    "lngdppc": 9.902987427,
+    "pop2022": 5180829,
+    "AnnualCO2Emissions": 7819507,
+    "lnCO2Emissions": 15.87213207
+  },
+  {
+    "ranking": 54,
+    "country": "Croatia",
+    "code": "HRV",
+    "gdppc": 27717,
+    "lngdppc": 10.22980122,
+    "pop2022": 4030358,
+    "AnnualCO2Emissions": 17701450,
+    "lnCO2Emissions": 16.68915712
+  },
+  {
+    "ranking": 36,
+    "country": "Cyprus",
+    "code": "CYP",
+    "gdppc": 40107,
+    "lngdppc": 10.59930616,
+    "pop2022": 1251488,
+    "AnnualCO2Emissions": 7600422,
+    "lnCO2Emissions": 15.84371433
+  },
+  {
+    "ranking": 34,
+    "country": "Czech Republic",
+    "code": "CZE",
+    "gdppc": 40618,
+    "lngdppc": 10.6119666,
+    "pop2022": 10493986,
+    "AnnualCO2Emissions": 97138330,
+    "lnCO2Emissions": 18.3916466
+  },
+  {
+    "ranking": 10,
+    "country": "Denmark",
+    "code": "DNK",
+    "gdppc": 58932,
+    "lngdppc": 10.98413952,
+    "pop2022": 5882261,
+    "AnnualCO2Emissions": 29576956,
+    "lnCO2Emissions": 17.2025061
+  },
+  {
+    "ranking": 145,
+    "country": "Djibouti",
+    "code": "DJI",
+    "gdppc": 5096,
+    "lngdppc": 8.536211197,
+    "pop2022": 1120849,
+    "AnnualCO2Emissions": 379178,
+    "lnCO2Emissions": 12.84576103
+  },
+  {
+    "ranking": 110,
+    "country": "Dominica",
+    "code": "DMA",
+    "gdppc": 11072,
+    "lngdppc": 9.312174678,
+    "pop2022": 72737,
+    "AnnualCO2Emissions": 158529,
+    "lnCO2Emissions": 11.97369282
+  },
+  {
+    "ranking": 74,
+    "country": "Dominican Republic",
+    "code": "DOM",
+    "gdppc": 18608,
+    "lngdppc": 9.831346875,
+    "pop2022": 11228821,
+    "AnnualCO2Emissions": 28922094,
+    "lnCO2Emissions": 17.18011636
+  },
+  {
+    "ranking": 189,
+    "country": "DR Congo",
+    "code": "COD",
+    "gdppc": 1106,
+    "lngdppc": 7.008505182,
+    "pop2022": 99010212,
+    "AnnualCO2Emissions": 2606688,
+    "lnCO2Emissions": 14.77359101
+  },
+  {
+    "ranking": 111,
+    "country": "Ecuador",
+    "code": "ECU",
+    "gdppc": 11009,
+    "lngdppc": 9.306468399,
+    "pop2022": 18001000,
+    "AnnualCO2Emissions": 41321736,
+    "lnCO2Emissions": 17.53689921
+  },
+  {
+    "ranking": 99,
+    "country": "Egypt",
+    "code": "EGY",
+    "gdppc": 12790,
+    "lngdppc": 9.456418895,
+    "pop2022": 110990103,
+    "AnnualCO2Emissions": 249624140,
+    "lnCO2Emissions": 19.3354669
+  },
+  {
+    "ranking": 121,
+    "country": "El Salvador",
+    "code": "SLV",
+    "gdppc": 8422,
+    "lngdppc": 9.038602609,
+    "pop2022": 6336392,
+    "AnnualCO2Emissions": 7204384,
+    "lnCO2Emissions": 15.79020029
+  },
+  {
+    "ranking": 76,
+    "country": "Equatorial Guinea",
+    "code": "GNQ",
+    "gdppc": 17788,
+    "lngdppc": 9.786279352,
+    "pop2022": 1674908,
+    "AnnualCO2Emissions": 5224788,
+    "lnCO2Emissions": 15.46892478
+  },
+  {
+    "ranking": 182,
+    "country": "Eritrea",
+    "code": "ERI",
+    "gdppc": 1821,
+    "lngdppc": 7.50714108,
+    "pop2022": 3684032,
+    "AnnualCO2Emissions": 820601,
+    "lnCO2Emissions": 13.61779228
+  },
+  {
+    "ranking": 40,
+    "country": "Estonia",
+    "code": "EST",
+    "gdppc": 38834,
+    "lngdppc": 10.56705143,
+    "pop2022": 1326062,
+    "AnnualCO2Emissions": 10449021,
+    "lnCO2Emissions": 16.16201885
+  },
+  {
+    "ranking": 119,
+    "country": "Eswatini",
+    "code": "SWZ",
+    "gdppc": 8957,
+    "lngdppc": 9.100190628,
+    "pop2022": 1201670,
+    "AnnualCO2Emissions": 1087219,
+    "lnCO2Emissions": 13.89913362
+  },
+  {
+    "ranking": 165,
+    "country": "Ethiopia",
+    "code": "ETH",
+    "gdppc": 2908,
+    "lngdppc": 7.975220839,
+    "pop2022": 123379924,
+    "AnnualCO2Emissions": 17792552,
+    "lnCO2Emissions": 16.6942905
+  },
+  {
+    "ranking": 106,
+    "country": "Fiji",
+    "code": "FJI",
+    "gdppc": 11567,
+    "lngdppc": 9.355911495,
+    "pop2022": 929766,
+    "AnnualCO2Emissions": 1470402,
+    "lnCO2Emissions": 14.20104639
+  },
+  {
+    "ranking": 22,
+    "country": "Finland",
+    "code": "FIN",
+    "gdppc": 49853,
+    "lngdppc": 10.81683395,
+    "pop2022": 5540745,
+    "AnnualCO2Emissions": 37602330,
+    "lnCO2Emissions": 17.44257657
+  },
+  {
+    "ranking": 26,
+    "country": "France",
+    "code": "FRA",
+    "gdppc": 46062,
+    "lngdppc": 10.73774359,
+    "pop2022": 64626628,
+    "AnnualCO2Emissions": 305963700,
+    "lnCO2Emissions": 19.53897703
+  },
+  {
+    "ranking": 81,
+    "country": "Gabon",
+    "code": "GAB",
+    "gdppc": 15970,
+    "lngdppc": 9.678467241,
+    "pop2022": 2388992,
+    "AnnualCO2Emissions": 5712477,
+    "lnCO2Emissions": 15.55816329
+  },
+  {
+    "ranking": 177,
+    "country": "Gambia",
+    "code": "GMB",
+    "gdppc": 2276,
+    "lngdppc": 7.730174795,
+    "pop2022": 2705992,
+    "AnnualCO2Emissions": 655699,
+    "lnCO2Emissions": 13.39345712
+  },
+  {
+    "ranking": 84,
+    "country": "Georgia",
+    "code": "GEO",
+    "gdppc": 14918,
+    "lngdppc": 9.610323817,
+    "pop2022": 3744385,
+    "AnnualCO2Emissions": 11009796,
+    "lnCO2Emissions": 16.21429598
+  },
+  {
+    "ranking": 19,
+    "country": "Germany",
+    "code": "DEU",
+    "gdppc": 54076,
+    "lngdppc": 10.89814574,
+    "pop2022": 83369843,
+    "AnnualCO2Emissions": 674753540,
+    "lnCO2Emissions": 20.32985806
+  },
+  {
+    "ranking": 134,
+    "country": "Ghana",
+    "code": "GHA",
+    "gdppc": 5693,
+    "lngdppc": 8.646992629,
+    "pop2022": 33475870,
+    "AnnualCO2Emissions": 21312802,
+    "lnCO2Emissions": 16.87481848
+  },
+  {
+    "ranking": 52,
+    "country": "Greece",
+    "code": "GRC",
+    "gdppc": 28748,
+    "lngdppc": 10.26632348,
+    "pop2022": 10384971,
+    "AnnualCO2Emissions": 56309280,
+    "lnCO2Emissions": 17.84636991
+  },
+  {
+    "ranking": 82,
+    "country": "Grenada",
+    "code": "GRD",
+    "gdppc": 15431,
+    "lngdppc": 9.644133752,
+    "pop2022": 125438,
+    "AnnualCO2Emissions": 319210,
+    "lnCO2Emissions": 12.67360447
+  },
+  {
+    "ranking": 123,
+    "country": "Guatemala",
+    "code": "GTM",
+    "gdppc": 8293,
+    "lngdppc": 9.023167064,
+    "pop2022": 17843908,
+    "AnnualCO2Emissions": 20327104,
+    "lnCO2Emissions": 16.82746573
+  },
+  {
+    "ranking": 169,
+    "country": "Guinea",
+    "code": "GIN",
+    "gdppc": 2604,
+    "lngdppc": 7.864804003,
+    "pop2022": 13859341,
+    "AnnualCO2Emissions": 4841779,
+    "lnCO2Emissions": 15.39279277
+  },
+  {
+    "ranking": 175,
+    "country": "Guinea-Bissau",
+    "code": "GNB",
+    "gdppc": 2348,
+    "lngdppc": 7.761319181,
+    "pop2022": 2105566,
+    "AnnualCO2Emissions": 351839,
+    "lnCO2Emissions": 12.77092896
+  },
+  {
+    "ranking": 68,
+    "country": "Guyana",
+    "code": "GUY",
+    "gdppc": 19684,
+    "lngdppc": 9.887561402,
+    "pop2022": 808726,
+    "AnnualCO2Emissions": 3087826,
+    "lnCO2Emissions": 14.94297784
+  },
+  {
+    "ranking": 164,
+    "country": "Haiti",
+    "code": "HTI",
+    "gdppc": 2916,
+    "lngdppc": 7.977968093,
+    "pop2022": 11584996,
+    "AnnualCO2Emissions": 2875923,
+    "lnCO2Emissions": 14.87188422
+  },
+  {
+    "ranking": 137,
+    "country": "Honduras",
+    "code": "HND",
+    "gdppc": 5450,
+    "lngdppc": 8.603370888,
+    "pop2022": 10432860,
+    "AnnualCO2Emissions": 10897812,
+    "lnCO2Emissions": 16.20407259
+  },
+  {
+    "ranking": 9,
+    "country": "Hong Kong",
+    "code": "HKG",
+    "gdppc": 59520,
+    "lngdppc": 10.99406767,
+    "pop2022": 7488865,
+    "AnnualCO2Emissions": 31664380,
+    "lnCO2Emissions": 17.27070295
+  },
+  {
+    "ranking": 45,
+    "country": "Hungary",
+    "code": "HUN",
+    "gdppc": 33030,
+    "lngdppc": 10.40517152,
+    "pop2022": 9967308,
+    "AnnualCO2Emissions": 48454620,
+    "lnCO2Emissions": 17.69613825
+  },
+  {
+    "ranking": 15,
+    "country": "Iceland",
+    "code": "ISL",
+    "gdppc": 55596,
+    "lngdppc": 10.92586654,
+    "pop2022": 372899,
+    "AnnualCO2Emissions": 3374964,
+    "lnCO2Emissions": 15.03189522
+  },
+  {
+    "ranking": 128,
+    "country": "India",
+    "code": "IND",
+    "gdppc": 6461,
+    "lngdppc": 8.773539384,
+    "pop2022": 1417173173,
+    "AnnualCO2Emissions": 2709683700,
+    "lnCO2Emissions": 21.72009775
+  },
+  {
+    "ranking": 101,
+    "country": "Indonesia",
+    "code": "IDN",
+    "gdppc": 12222,
+    "lngdppc": 9.410992885,
+    "pop2022": 275501339,
+    "AnnualCO2Emissions": 619277500,
+    "lnCO2Emissions": 20.24406403
+  },
+  {
+    "ranking": 96,
+    "country": "Iran",
+    "code": "IRN",
+    "gdppc": 13073,
+    "lngdppc": 9.478304314,
+    "pop2022": 88550570,
+    "AnnualCO2Emissions": 748878700,
+    "lnCO2Emissions": 20.43408758
+  },
+  {
+    "ranking": 115,
+    "country": "Iraq",
+    "code": "IRQ",
+    "gdppc": 10003,
+    "lngdppc": 9.210640327,
+    "pop2022": 44496122,
+    "AnnualCO2Emissions": 185580690,
+    "lnCO2Emissions": 19.03900033
+  },
+  {
+    "ranking": 3,
+    "country": "Ireland",
+    "code": "IRL",
+    "gdppc": 94392,
+    "lngdppc": 11.4552116,
+    "pop2022": 5023109,
+    "AnnualCO2Emissions": 37540330,
+    "lnCO2Emissions": 17.44092638
+  },
+  {
+    "ranking": 35,
+    "country": "Israel",
+    "code": "ISR",
+    "gdppc": 40547,
+    "lngdppc": 10.61021707,
+    "pop2022": 9038309,
+    "AnnualCO2Emissions": 54528532,
+    "lnCO2Emissions": 17.81423465
+  },
+  {
+    "ranking": 33,
+    "country": "Italy",
+    "code": "ITA",
+    "gdppc": 40861,
+    "lngdppc": 10.61793134,
+    "pop2022": 59037474,
+    "AnnualCO2Emissions": 328687330,
+    "lnCO2Emissions": 19.61061749
+  },
+  {
+    "ranking": 139,
+    "country": "Ivory Coast",
+    "code": "CIV",
+    "gdppc": 5365,
+    "lngdppc": 8.587651655,
+    "pop2022": 28160542,
+    "AnnualCO2Emissions": 11706642,
+    "lnCO2Emissions": 16.27566693
+  },
+  {
+    "ranking": 116,
+    "country": "Jamaica",
+    "code": "JAM",
+    "gdppc": 9975,
+    "lngdppc": 9.207837242,
+    "pop2022": 2827377,
+    "AnnualCO2Emissions": 7689743,
+    "lnCO2Emissions": 15.85539792
+  },
+  {
+    "ranking": 30,
+    "country": "Japan",
+    "code": "JPN",
+    "gdppc": 42248,
+    "lngdppc": 10.65131229,
+    "pop2022": 123951692,
+    "AnnualCO2Emissions": 1067398460,
+    "lnCO2Emissions": 20.78849018
+  },
+  {
+    "ranking": 113,
+    "country": "Jordan",
+    "code": "JOR",
+    "gdppc": 10306,
+    "lngdppc": 9.240481529,
+    "pop2022": 11285869,
+    "AnnualCO2Emissions": 25593718,
+    "lnCO2Emissions": 17.05785749
+  },
+  {
+    "ranking": 57,
+    "country": "Kazakhstan",
+    "code": "KAZ",
+    "gdppc": 26565,
+    "lngdppc": 10.18734984,
+    "pop2022": 19397998,
+    "AnnualCO2Emissions": 276683460,
+    "lnCO2Emissions": 19.43838467
+  },
+  {
+    "ranking": 147,
+    "country": "Kenya",
+    "code": "KEN",
+    "gdppc": 4926,
+    "lngdppc": 8.502282579,
+    "pop2022": 54027487,
+    "AnnualCO2Emissions": 19875402,
+    "lnCO2Emissions": 16.80499344
+  },
+  {
+    "ranking": 179,
+    "country": "Kiribati",
+    "code": "KIR",
+    "gdppc": 2200,
+    "lngdppc": 7.696212639,
+    "pop2022": 131232,
+    "AnnualCO2Emissions": 71533,
+    "lnCO2Emissions": 11.17791416
+  },
+  {
+    "ranking": 32,
+    "country": "Kuwait",
+    "code": "KWT",
+    "gdppc": 41627,
+    "lngdppc": 10.63650427,
+    "pop2022": 4268873,
+    "AnnualCO2Emissions": 106134264,
+    "lnCO2Emissions": 18.48021549
+  },
+  {
+    "ranking": 146,
+    "country": "Kyrgyzstan",
+    "code": "KGZ",
+    "gdppc": 5036,
+    "lngdppc": 8.524367395,
+    "pop2022": 6630623,
+    "AnnualCO2Emissions": 9308101,
+    "lnCO2Emissions": 16.04639565
+  },
+  {
+    "ranking": 124,
+    "country": "Laos",
+    "code": "LAO",
+    "gdppc": 8111,
+    "lngdppc": 9.000976444,
+    "pop2022": 7529475,
+    "AnnualCO2Emissions": 20777500,
+    "lnCO2Emissions": 16.84938123
+  },
+  {
+    "ranking": 47,
+    "country": "Latvia",
+    "code": "LVA",
+    "gdppc": 31509,
+    "lngdppc": 10.3580285,
+    "pop2022": 1850651,
+    "AnnualCO2Emissions": 7266214,
+    "lnCO2Emissions": 15.79874594
+  },
+  {
+    "ranking": 107,
+    "country": "Lebanon",
+    "code": "LBN",
+    "gdppc": 11564,
+    "lngdppc": 9.355652103,
+    "pop2022": 5489739,
+    "AnnualCO2Emissions": 24958900,
+    "lnCO2Emissions": 17.03274103
+  },
+  {
+    "ranking": 167,
+    "country": "Lesotho",
+    "code": "LSO",
+    "gdppc": 2718,
+    "lngdppc": 7.907651595,
+    "pop2022": 2305825,
+    "AnnualCO2Emissions": 2282165,
+    "lnCO2Emissions": 14.64063511
+  },
+  {
+    "ranking": 186,
+    "country": "Liberia",
+    "code": "LBR",
+    "gdppc": 1557,
+    "lngdppc": 7.350516172,
+    "pop2022": 5302681,
+    "AnnualCO2Emissions": 1195260,
+    "lnCO2Emissions": 13.99387429
+  },
+  {
+    "ranking": 132,
+    "country": "Libya",
+    "code": "LBY",
+    "gdppc": 5893,
+    "lngdppc": 8.681520485,
+    "pop2022": 6812341,
+    "AnnualCO2Emissions": 74525080,
+    "lnCO2Emissions": 18.12664627
+  },
+  {
+    "ranking": 37,
+    "country": "Lithuania",
+    "code": "LTU",
+    "gdppc": 38824,
+    "lngdppc": 10.56679389,
+    "pop2022": 2750055,
+    "AnnualCO2Emissions": 13880837,
+    "lnCO2Emissions": 16.44601981
+  },
+  {
+    "ranking": 1,
+    "country": "Luxembourg",
+    "code": "LUX",
+    "gdppc": 118001,
+    "lngdppc": 11.67844838,
+    "pop2022": 647599,
+    "AnnualCO2Emissions": 8354555,
+    "lnCO2Emissions": 15.93831746
+  },
+  {
+    "ranking": 14,
+    "country": "Macau",
+    "code": "MAC",
+    "gdppc": 56078,
+    "lngdppc": 10.93449886,
+    "pop2022": 695168,
+    "AnnualCO2Emissions": 1286771,
+    "lnCO2Emissions": 14.06764654
+  },
+  {
+    "ranking": 185,
+    "country": "Madagascar",
+    "code": "MDG",
+    "gdppc": 1599,
+    "lngdppc": 7.377133713,
+    "pop2022": 29611714,
+    "AnnualCO2Emissions": 4244355,
+    "lnCO2Emissions": 15.26110042
+  },
+  {
+    "ranking": 190,
+    "country": "Malawi",
+    "code": "MWI",
+    "gdppc": 993,
+    "lngdppc": 6.900730664,
+    "pop2022": 20405317,
+    "AnnualCO2Emissions": 1552193,
+    "lnCO2Emissions": 14.25517933
+  },
+  {
+    "ranking": 55,
+    "country": "Malaysia",
+    "code": "MYS",
+    "gdppc": 27402,
+    "lngdppc": 10.21837128,
+    "pop2022": 33938221,
+    "AnnualCO2Emissions": 256048940,
+    "lnCO2Emissions": 19.36087916
+  },
+  {
+    "ranking": 69,
+    "country": "Maldives",
+    "code": "MDV",
+    "gdppc": 19609,
+    "lngdppc": 9.883743923,
+    "pop2022": 523787,
+    "AnnualCO2Emissions": 2118174,
+    "lnCO2Emissions": 14.56606495
+  },
+  {
+    "ranking": 173,
+    "country": "Mali",
+    "code": "MLI",
+    "gdppc": 2401,
+    "lngdppc": 7.783640596,
+    "pop2022": 22593590,
+    "AnnualCO2Emissions": 4169757.8,
+    "lnCO2Emissions": 15.24336851
+  },
+  {
+    "ranking": 29,
+    "country": "Malta",
+    "code": "MLT",
+    "gdppc": 42856,
+    "lngdppc": 10.66560094,
+    "pop2022": 533286,
+    "AnnualCO2Emissions": 1724154,
+    "lnCO2Emissions": 14.36024705
+  },
+  {
+    "ranking": 155,
+    "country": "Marshall Islands",
+    "code": "MHL",
+    "gdppc": 3786,
+    "lngdppc": 8.239065332,
+    "pop2022": 41569,
+    "AnnualCO2Emissions": 158962,
+    "lnCO2Emissions": 11.97642046
+  },
+  {
+    "ranking": 133,
+    "country": "Mauritania",
+    "code": "MRT",
+    "gdppc": 5834,
+    "lngdppc": 8.67145815,
+    "pop2022": 4736139,
+    "AnnualCO2Emissions": 4118111.2,
+    "lnCO2Emissions": 15.23090517
+  },
+  {
+    "ranking": 65,
+    "country": "Mauritius",
+    "code": "MUS",
+    "gdppc": 20292,
+    "lngdppc": 9.917981999,
+    "pop2022": 1299469,
+    "AnnualCO2Emissions": 4471674,
+    "lnCO2Emissions": 15.31327339
+  },
+  {
+    "ranking": 72,
+    "country": "Mexico",
+    "code": "MEX",
+    "gdppc": 19130,
+    "lngdppc": 9.859013062,
+    "pop2022": 127504125,
+    "AnnualCO2Emissions": 407205060,
+    "lnCO2Emissions": 19.82482745
+  },
+  {
+    "ranking": 159,
+    "country": "Micronesia",
+    "code": "FSM",
+    "gdppc": 3446,
+    "lngdppc": 8.144969417,
+    "pop2022": 114164,
+    "AnnualCO2Emissions": 158962,
+    "lnCO2Emissions": 11.97642046
+  },
+  {
+    "ranking": 98,
+    "country": "Moldova",
+    "code": "MDA",
+    "gdppc": 12811,
+    "lngdppc": 9.458059456,
+    "pop2022": 3272996,
+    "AnnualCO2Emissions": 5601510,
+    "lnCO2Emissions": 15.53854676
+  },
+  {
+    "ranking": 105,
+    "country": "Mongolia",
+    "code": "MNG",
+    "gdppc": 11825,
+    "lngdppc": 9.377971213,
+    "pop2022": 3398366,
+    "AnnualCO2Emissions": 50315916,
+    "lnCO2Emissions": 17.73383201
+  },
+  {
+    "ranking": 125,
+    "country": "Morocco",
+    "code": "MAR",
+    "gdppc": 7620,
+    "lngdppc": 8.938531649,
+    "pop2022": 37457971,
+    "AnnualCO2Emissions": 70577660,
+    "lnCO2Emissions": 18.07222422
+  },
+  {
+    "ranking": 187,
+    "country": "Mozambique",
+    "code": "MOZ",
+    "gdppc": 1277,
+    "lngdppc": 7.152268856,
+    "pop2022": 32969518,
+    "AnnualCO2Emissions": 7156209,
+    "lnCO2Emissions": 15.78349093
+  },
+  {
+    "ranking": 141,
+    "country": "Myanmar",
+    "code": "MMR",
+    "gdppc": 5242,
+    "lngdppc": 8.564458384,
+    "pop2022": 54179306,
+    "AnnualCO2Emissions": 36306760,
+    "lnCO2Emissions": 17.40751451
+  },
+  {
+    "ranking": 118,
+    "country": "Namibia",
+    "code": "NAM",
+    "gdppc": 9396,
+    "lngdppc": 9.148039346,
+    "pop2022": 2567012,
+    "AnnualCO2Emissions": 4014822,
+    "lnCO2Emissions": 15.20550357
+  },
+  {
+    "ranking": 117,
+    "country": "Nauru",
+    "code": "NRU",
+    "gdppc": 9856,
+    "lngdppc": 9.195835686,
+    "pop2022": 12668,
+    "AnnualCO2Emissions": 59611,
+    "lnCO2Emissions": 10.9955954
+  },
+  {
+    "ranking": 152,
+    "country": "Nepal",
+    "code": "NPL",
+    "gdppc": 4061,
+    "lngdppc": 8.309184528,
+    "pop2022": 30547580,
+    "AnnualCO2Emissions": 14173067,
+    "lnCO2Emissions": 16.46685403
+  },
+  {
+    "ranking": 13,
+    "country": "Netherlands",
+    "code": "NLD",
+    "gdppc": 57534,
+    "lngdppc": 10.96013136,
+    "pop2022": 17564014,
+    "AnnualCO2Emissions": 141045420,
+    "lnCO2Emissions": 18.76459252
+  },
+  {
+    "ranking": 31,
+    "country": "New Zealand",
+    "code": "NZL",
+    "gdppc": 42018,
+    "lngdppc": 10.64585338,
+    "pop2022": 5185288,
+    "AnnualCO2Emissions": 33789824,
+    "lnCO2Emissions": 17.33567025
+  },
+  {
+    "ranking": 136,
+    "country": "Nicaragua",
+    "code": "NIC",
+    "gdppc": 5575,
+    "lngdppc": 8.626047596,
+    "pop2022": 6948392,
+    "AnnualCO2Emissions": 5059770,
+    "lnCO2Emissions": 15.43683159
+  },
+  {
+    "ranking": 188,
+    "country": "Niger",
+    "code": "NER",
+    "gdppc": 1259,
+    "lngdppc": 7.138073034,
+    "pop2022": 26207977,
+    "AnnualCO2Emissions": 2698898,
+    "lnCO2Emissions": 14.8083541
+  },
+  {
+    "ranking": 142,
+    "country": "Nigeria",
+    "code": "NGA",
+    "gdppc": 5187,
+    "lngdppc": 8.553910774,
+    "pop2022": 218541212,
+    "AnnualCO2Emissions": 136986780,
+    "lnCO2Emissions": 18.73539498
+  },
+  {
+    "ranking": 79,
+    "country": "North Macedonia",
+    "code": "MKD",
+    "gdppc": 16712,
+    "lngdppc": 9.723882303,
+    "pop2022": 2093599,
+    "AnnualCO2Emissions": 6851552,
+    "lnCO2Emissions": 15.73998575
+  },
+  {
+    "ranking": 6,
+    "country": "Norway",
+    "code": "NOR",
+    "gdppc": 65800,
+    "lngdppc": 11.09437512,
+    "pop2022": 5434319,
+    "AnnualCO2Emissions": 40918550,
+    "lnCO2Emissions": 17.52709406
+  },
+  {
+    "ranking": 50,
+    "country": "Oman",
+    "code": "OMN",
+    "gdppc": 30178,
+    "lngdppc": 10.31486846,
+    "pop2022": 4576298,
+    "AnnualCO2Emissions": 80991180,
+    "lnCO2Emissions": 18.20985082
+  },
+  {
+    "ranking": 144,
+    "country": "Pakistan",
+    "code": "PAK",
+    "gdppc": 5150,
+    "lngdppc": 8.546751994,
+    "pop2022": 235824862,
+    "AnnualCO2Emissions": 229512380,
+    "lnCO2Emissions": 19.25146753
+  },
+  {
+    "ranking": 89,
+    "country": "Palau",
+    "code": "PLW",
+    "gdppc": 14309,
+    "lngdppc": 9.568643989,
+    "pop2022": 18055,
+    "AnnualCO2Emissions": 238444,
+    "lnCO2Emissions": 12.38188976
+  },
+  {
+    "ranking": 56,
+    "country": "Panama",
+    "code": "PAN",
+    "gdppc": 27003,
+    "lngdppc": 10.20370325,
+    "pop2022": 4408581,
+    "AnnualCO2Emissions": 13031620,
+    "lnCO2Emissions": 16.38288927
+  },
+  {
+    "ranking": 153,
+    "country": "Papua New Guinea",
+    "code": "PNG",
+    "gdppc": 3833,
+    "lngdppc": 8.251403065,
+    "pop2022": 10142619,
+    "AnnualCO2Emissions": 8509555,
+    "lnCO2Emissions": 15.95670021
+  },
+  {
+    "ranking": 97,
+    "country": "Paraguay",
+    "code": "PRY",
+    "gdppc": 12881,
+    "lngdppc": 9.463508636,
+    "pop2022": 6780744,
+    "AnnualCO2Emissions": 8576565,
+    "lnCO2Emissions": 15.96454404
+  },
+  {
+    "ranking": 104,
+    "country": "Peru",
+    "code": "PER",
+    "gdppc": 11871,
+    "lngdppc": 9.38185373,
+    "pop2022": 34049588,
+    "AnnualCO2Emissions": 56282000,
+    "lnCO2Emissions": 17.84588533
+  },
+  {
+    "ranking": 120,
+    "country": "Philippines",
+    "code": "PHL",
+    "gdppc": 8452,
+    "lngdppc": 9.042158379,
+    "pop2022": 115559009,
+    "AnnualCO2Emissions": 144263870,
+    "lnCO2Emissions": 18.78715461
+  },
+  {
+    "ranking": 41,
+    "country": "Poland",
+    "code": "POL",
+    "gdppc": 34103,
+    "lngdppc": 10.43714064,
+    "pop2022": 39857145,
+    "AnnualCO2Emissions": 328579780,
+    "lnCO2Emissions": 19.61029023
+  },
+  {
+    "ranking": 42,
+    "country": "Portugal",
+    "code": "PRT",
+    "gdppc": 34043,
+    "lngdppc": 10.43537971,
+    "pop2022": 10270865,
+    "AnnualCO2Emissions": 40797216,
+    "lnCO2Emissions": 17.5241244
+  },
+  {
+    "ranking": 43,
+    "country": "Puerto Rico",
+    "code": "PRI",
+    "gdppc": 34025,
+    "lngdppc": 10.43485083,
+    "pop2022": 3252407,
+    "AnnualCO2Emissions": 0,
+    "lnCO2Emissions": "#NUM!"
+  },
+  {
+    "ranking": 4,
+    "country": "Qatar",
+    "code": "QAT",
+    "gdppc": 93508,
+    "lngdppc": 11.44580227,
+    "pop2022": 2695122,
+    "AnnualCO2Emissions": 95667180,
+    "lnCO2Emissions": 18.37638585
+  },
+  {
+    "ranking": 150,
+    "country": "Republic of the Congo",
+    "code": "COG",
+    "gdppc": 4188,
+    "lngdppc": 8.339978572,
+    "pop2022": 5970424,
+    "AnnualCO2Emissions": 7464369,
+    "lnCO2Emissions": 15.82565146
+  },
+  {
+    "ranking": 48,
+    "country": "Romania",
+    "code": "ROU",
+    "gdppc": 30526,
+    "lngdppc": 10.32633406,
+    "pop2022": 19659267,
+    "AnnualCO2Emissions": 79326856,
+    "lnCO2Emissions": 18.18908729
+  },
+  {
+    "ranking": 53,
+    "country": "Russia",
+    "code": "RUS",
+    "gdppc": 27903,
+    "lngdppc": 10.23648949,
+    "pop2022": 144713314,
+    "AnnualCO2Emissions": 1755547400,
+    "lnCO2Emissions": 21.28604655
+  },
+  {
+    "ranking": 176,
+    "country": "Rwanda",
+    "code": "RWA",
+    "gdppc": 2337,
+    "lngdppc": 7.756623335,
+    "pop2022": 13776698,
+    "AnnualCO2Emissions": 1754532,
+    "lnCO2Emissions": 14.37771271
+  },
+  {
+    "ranking": 135,
+    "country": "Samoa",
+    "code": "WSM",
+    "gdppc": 5653,
+    "lngdppc": 8.639941657,
+    "pop2022": 222382,
+    "AnnualCO2Emissions": 294080,
+    "lnCO2Emissions": 12.59160712
+  },
+  {
+    "ranking": 25,
+    "country": "Saudi Arabia",
+    "code": "SAU",
+    "gdppc": 46811,
+    "lngdppc": 10.7538735,
+    "pop2022": 36408820,
+    "AnnualCO2Emissions": 672379900,
+    "lnCO2Emissions": 20.32633407
+  },
+  {
+    "ranking": 158,
+    "country": "Senegal",
+    "code": "SEN",
+    "gdppc": 3478,
+    "lngdppc": 8.154212695,
+    "pop2022": 17316449,
+    "AnnualCO2Emissions": 13597910,
+    "lnCO2Emissions": 16.42542666
+  },
+  {
+    "ranking": 71,
+    "country": "Serbia",
+    "code": "SRB",
+    "gdppc": 19146,
+    "lngdppc": 9.859849096,
+    "pop2022": 7221365,
+    "AnnualCO2Emissions": 30868986,
+    "lnCO2Emissions": 17.24526255
+  },
+  {
+    "ranking": 58,
+    "country": "Seychelles",
+    "code": "SYC",
+    "gdppc": 25414,
+    "lngdppc": 10.14305548,
+    "pop2022": 107118,
+    "AnnualCO2Emissions": 568279,
+    "lnCO2Emissions": 13.25036777
+  },
+  {
+    "ranking": 183,
+    "country": "Sierra Leone",
+    "code": "SLE",
+    "gdppc": 1725,
+    "lngdppc": 7.452982329,
+    "pop2022": 8605718,
+    "AnnualCO2Emissions": 1299404,
+    "lnCO2Emissions": 14.07741626
+  },
+  {
+    "ranking": 2,
+    "country": "Singapore",
+    "code": "SGP",
+    "gdppc": 97057,
+    "lngdppc": 11.48305371,
+    "pop2022": 5975689,
+    "AnnualCO2Emissions": 32506890,
+    "lnCO2Emissions": 17.29696262
+  },
+  {
+    "ranking": 46,
+    "country": "Slovakia",
+    "code": "SVK",
+    "gdppc": 32709,
+    "lngdppc": 10.39540555,
+    "pop2022": 5643453,
+    "AnnualCO2Emissions": 35308216,
+    "lnCO2Emissions": 17.37962624
+  },
+  {
+    "ranking": 38,
+    "country": "Slovenia",
+    "code": "SVN",
+    "gdppc": 40067,
+    "lngdppc": 10.59830833,
+    "pop2022": 2119844,
+    "AnnualCO2Emissions": 12549330,
+    "lnCO2Emissions": 16.34517784
+  },
+  {
+    "ranking": 172,
+    "country": "Solomon Islands",
+    "code": "SLB",
+    "gdppc": 2455,
+    "lngdppc": 7.80588204,
+    "pop2022": 724273,
+    "AnnualCO2Emissions": 317925,
+    "lnCO2Emissions": 12.66957078
+  },
+  {
+    "ranking": 192,
+    "country": "Somalia",
+    "code": "SOM",
+    "gdppc": 925,
+    "lngdppc": 6.829793738,
+    "pop2022": 17597511,
+    "AnnualCO2Emissions": 610374,
+    "lnCO2Emissions": 13.32182716
+  },
+  {
+    "ranking": 103,
+    "country": "South Africa",
+    "code": "ZAF",
+    "gdppc": 12032,
+    "lngdppc": 9.395325046,
+    "pop2022": 59893885,
+    "AnnualCO2Emissions": 435928900,
+    "lnCO2Emissions": 19.89298971
+  },
+  {
+    "ranking": 27,
+    "country": "South Korea",
+    "code": "KOR",
+    "gdppc": 44621,
+    "lngdppc": 10.70595988,
+    "pop2022": 51815810,
+    "AnnualCO2Emissions": 616075000,
+    "lnCO2Emissions": 20.23887927
+  },
+  {
+    "ranking": 193,
+    "country": "South Sudan",
+    "code": "SSD",
+    "gdppc": 791,
+    "lngdppc": 6.673297968,
+    "pop2022": 10913164,
+    "AnnualCO2Emissions": 1582060,
+    "lnCO2Emissions": 14.27423835
+  },
+  {
+    "ranking": 39,
+    "country": "Spain",
+    "code": "ESP",
+    "gdppc": 39121,
+    "lngdppc": 10.57441469,
+    "pop2022": 47558630,
+    "AnnualCO2Emissions": 233649540,
+    "lnCO2Emissions": 19.26933286
+  },
+  {
+    "ranking": 94,
+    "country": "Sri Lanka",
+    "code": "LKA",
+    "gdppc": 13214,
+    "lngdppc": 9.489032153,
+    "pop2022": 21832143,
+    "AnnualCO2Emissions": 20780910,
+    "lnCO2Emissions": 16.84954533
+  },
+  {
+    "ranking": 151,
+    "country": "Sudan",
+    "code": "SDN",
+    "gdppc": 4098,
+    "lngdppc": 8.318254329,
+    "pop2022": 46874204,
+    "AnnualCO2Emissions": 21038216,
+    "lnCO2Emissions": 16.86185115
+  },
+  {
+    "ranking": 86,
+    "country": "Suriname",
+    "code": "SUR",
+    "gdppc": 14513,
+    "lngdppc": 9.582800078,
+    "pop2022": 618040,
+    "AnnualCO2Emissions": 2793206,
+    "lnCO2Emissions": 14.8427006
+  },
+  {
+    "ranking": 18,
+    "country": "Sweden",
+    "code": "SWE",
+    "gdppc": 54146,
+    "lngdppc": 10.89943938,
+    "pop2022": 10549347,
+    "AnnualCO2Emissions": 35848948,
+    "lnCO2Emissions": 17.39482478
+  },
+  {
+    "ranking": 5,
+    "country": "Switzerland",
+    "code": "CHE",
+    "gdppc": 72874,
+    "lngdppc": 11.1964872,
+    "pop2022": 8740472,
+    "AnnualCO2Emissions": 34931692,
+    "lnCO2Emissions": 17.36890506
+  },
+  {
+    "ranking": 16,
+    "country": "Taiwan",
+    "code": "TWN",
+    "gdppc": 55724,
+    "lngdppc": 10.92816621,
+    "pop2022": 23893394,
+    "AnnualCO2Emissions": 282856060,
+    "lnCO2Emissions": 19.4604487
+  },
+  {
+    "ranking": 156,
+    "country": "Tajikistan",
+    "code": "TJK",
+    "gdppc": 3676,
+    "lngdppc": 8.209580483,
+    "pop2022": 9952787,
+    "AnnualCO2Emissions": 10336408,
+    "lnCO2Emissions": 16.15118298
+  },
+  {
+    "ranking": 166,
+    "country": "Tanzania",
+    "code": "TZA",
+    "gdppc": 2821,
+    "lngdppc": 7.944846711,
+    "pop2022": 65497748,
+    "AnnualCO2Emissions": 13058865,
+    "lnCO2Emissions": 16.38497777
+  },
+  {
+    "ranking": 75,
+    "country": "Thailand",
+    "code": "THA",
+    "gdppc": 18236,
+    "lngdppc": 9.811152941,
+    "pop2022": 71697030,
+    "AnnualCO2Emissions": 278495700,
+    "lnCO2Emissions": 19.44491318
+  },
+  {
+    "ranking": 161,
+    "country": "Timor-Leste",
+    "code": "TLS",
+    "gdppc": 3382,
+    "lngdppc": 8.126222529,
+    "pop2022": 1341296,
+    "AnnualCO2Emissions": 736328,
+    "lnCO2Emissions": 13.50943095
+  },
+  {
+    "ranking": 180,
+    "country": "Togo",
+    "code": "TGO",
+    "gdppc": 2199,
+    "lngdppc": 7.695757991,
+    "pop2022": 8848699,
+    "AnnualCO2Emissions": 2342020,
+    "lnCO2Emissions": 14.66652436
+  },
+  {
+    "ranking": 130,
+    "country": "Tonga",
+    "code": "TON",
+    "gdppc": 6191,
+    "lngdppc": 8.730851904,
+    "pop2022": 106858,
+    "AnnualCO2Emissions": 174859,
+    "lnCO2Emissions": 12.07173521
+  },
+  {
+    "ranking": 59,
+    "country": "Trinidad and Tobago",
+    "code": "TTO",
+    "gdppc": 25031,
+    "lngdppc": 10.12787034,
+    "pop2022": 1531044,
+    "AnnualCO2Emissions": 36124040,
+    "lnCO2Emissions": 17.40246913
+  },
+  {
+    "ranking": 114,
+    "country": "Tunisia",
+    "code": "TUN",
+    "gdppc": 10120,
+    "lngdppc": 9.222268943,
+    "pop2022": 12356117,
+    "AnnualCO2Emissions": 31582746,
+    "lnCO2Emissions": 17.26812152
+  },
+  {
+    "ranking": 49,
+    "country": "Turkey",
+    "code": "TUR",
+    "gdppc": 30253,
+    "lngdppc": 10.31735063,
+    "pop2022": 85341241,
+    "AnnualCO2Emissions": 446204200,
+    "lnCO2Emissions": 19.91628725
+  },
+  {
+    "ranking": 80,
+    "country": "Turkmenistan",
+    "code": "TKM",
+    "gdppc": 16520,
+    "lngdppc": 9.712327047,
+    "pop2022": 6430770,
+    "AnnualCO2Emissions": 83006810,
+    "lnCO2Emissions": 18.23443321
+  },
+  {
+    "ranking": 149,
+    "country": "Tuvalu",
+    "code": "TUV",
+    "gdppc": 4497,
+    "lngdppc": 8.411165787,
+    "pop2022": 11312,
+    "AnnualCO2Emissions": 7948,
+    "lnCO2Emissions": 8.980675604
+  },
+  {
+    "ranking": 171,
+    "country": "Uganda",
+    "code": "UGA",
+    "gdppc": 2574,
+    "lngdppc": 7.853216388,
+    "pop2022": 47249585,
+    "AnnualCO2Emissions": 5780464,
+    "lnCO2Emissions": 15.56999451
+  },
+  {
+    "ranking": 95,
+    "country": "Ukraine",
+    "code": "UKR",
+    "gdppc": 13110,
+    "lngdppc": 9.481130577,
+    "pop2022": 39701739,
+    "AnnualCO2Emissions": 201857710,
+    "lnCO2Emissions": 19.1230736
+  },
+  {
+    "ranking": 11,
+    "country": "United Arab Emirates",
+    "code": "ARE",
+    "gdppc": 58753,
+    "lngdppc": 10.98109749,
+    "pop2022": 9441129,
+    "AnnualCO2Emissions": 204086660,
+    "lnCO2Emissions": 19.13405527
+  },
+  {
+    "ranking": 28,
+    "country": "United Kingdom",
+    "code": "GBR",
+    "gdppc": 44117,
+    "lngdppc": 10.69460047,
+    "pop2022": 67508936,
+    "AnnualCO2Emissions": 346773200,
+    "lnCO2Emissions": 19.66418152
+  },
+  {
+    "ranking": 7,
+    "country": "United States",
+    "code": "USA",
+    "gdppc": 63416,
+    "lngdppc": 11.05747147,
+    "pop2022": 338289857,
+    "AnnualCO2Emissions": 5007336000,
+    "lnCO2Emissions": 22.33416987
+  },
+  {
+    "ranking": 62,
+    "country": "Uruguay",
+    "code": "URY",
+    "gdppc": 22459,
+    "lngdppc": 10.0194467,
+    "pop2022": 3422794,
+    "AnnualCO2Emissions": 6737872,
+    "lnCO2Emissions": 15.72325471
+  },
+  {
+    "ranking": 126,
+    "country": "Uzbekistan",
+    "code": "UZB",
+    "gdppc": 7449,
+    "lngdppc": 8.915835074,
+    "pop2022": 34627652,
+    "AnnualCO2Emissions": 121631480,
+    "lnCO2Emissions": 18.61650638
+  },
+  {
+    "ranking": 170,
+    "country": "Vanuatu",
+    "code": "VUT",
+    "gdppc": 2586,
+    "lngdppc": 7.857867559,
+    "pop2022": 326740,
+    "AnnualCO2Emissions": 174859,
+    "lnCO2Emissions": 12.07173521
+  },
+  {
+    "ranking": 143,
+    "country": "Venezuela",
+    "code": "VEN",
+    "gdppc": 5178,
+    "lngdppc": 8.55217416,
+    "pop2022": 28301696,
+    "AnnualCO2Emissions": 79746600,
+    "lnCO2Emissions": 18.19436467
+  },
+  {
+    "ranking": 112,
+    "country": "Vietnam",
+    "code": "VNM",
+    "gdppc": 10869,
+    "lngdppc": 9.29366998,
+    "pop2022": 98186856,
+    "AnnualCO2Emissions": 326013660,
+    "lnCO2Emissions": 19.60244984
+  },
+  {
+    "ranking": 181,
+    "country": "Yemen",
+    "code": "YEM",
+    "gdppc": 1927,
+    "lngdppc": 7.563719668,
+    "pop2022": 33696614,
+    "AnnualCO2Emissions": 12476597,
+    "lnCO2Emissions": 16.33936521
+  },
+  {
+    "ranking": 162,
+    "country": "Zambia",
+    "code": "ZMB",
+    "gdppc": 3342,
+    "lngdppc": 8.114324709,
+    "pop2022": 20017675,
+    "AnnualCO2Emissions": 7676180,
+    "lnCO2Emissions": 15.85363259
+  },
+  {
+    "ranking": 168,
+    "country": "Zimbabwe",
+    "code": "ZWE",
+    "gdppc": 2622,
+    "lngdppc": 7.871692664,
+    "pop2022": 16320537,
+    "AnnualCO2Emissions": 11296114,
+    "lnCO2Emissions": 16.23996933
+  }
+]
