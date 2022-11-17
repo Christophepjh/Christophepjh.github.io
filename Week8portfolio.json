@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing GDP Per captita and CO2 Emissions of penguins.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/GDPEmmissionsdata.json"
+ 
+  },
+
+  "layer":[
+    {
+      "mark": "point",
+      "title":"Decoupling between CO2 emmissions and GDP",
+      "encoding": {
+        "x": {
+          "title": "GDP per capita",
+          "field": "gdppc",
+          "type": "quantitative",
+          "scale": {"zero": false}
+        },
+        "y": {
+          "title": "log of CO2 Emissions",
+          "field": "lnCO2Emissions",
+          "type": "quantitative",
+          "scale": {"zero": false}
+        },
+        "color": {"field": "OECD", "type": "nominal"},
+        "shape": {"field": "OECD", "type": "nominal"}
+      }
+    },
+
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "loess": "lnCO2Emissions",
+          "on": "gdppc"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "gdppc",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "lnCO2Emissions",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+  
+}
