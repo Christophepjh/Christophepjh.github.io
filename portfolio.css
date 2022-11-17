@@ -154,7 +154,7 @@ hr{
     max-width: 90%;
     margin:auto;
     max-width: 1200px;
-    margin-bottom: 0px !important;
+    margin-bottom: 15px !important;
     margin-top: 0px !important;
   
 }
@@ -199,7 +199,7 @@ hr{
     border-radius: 10px;
     
     max-width: 665px; 
-    
+    margin-bottom: 15px;
 }
   
 .map {
@@ -212,6 +212,8 @@ hr{
     
     padding: 5px;
     margin:5px;
+
+    
 }
 
 
