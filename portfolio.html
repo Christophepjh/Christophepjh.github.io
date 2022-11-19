@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -304,9 +305,9 @@
     <hr>
     <h3>Week 8 - Festival of Economics</h3>
     <hr>
-    <p>In week 8 I created two advanced charts inspired from topics in the Festival of Economics</p> 
-    <p>Chart one shows the relationship between GDP per capita and CO2 emissions</p>
-    <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. YOu can see this effect with teh Loess regression</p> 
+    <p>In week 8 I created two charts to support or refute an idea in the Festival of Economics</p> 
+    <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. You can see this effect with the Loess regression</p> 
+    <p>Chart one shows the relationship between GDP per capita and CO2 emissions across the world</p>
 <!-- Chart 1 -->
     <div class="container">
         <div class="chart" id="chart1_week8"> 
@@ -318,6 +319,18 @@
 
     </div>
 
+<!-- Chart 2 -->
+    <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s</p>
+    <div class="container">
+        <div class="chart" id="chart2_week8"> 
+            <script>
+                var myChart20 = "Week8portfolio2.json";   
+                vegaEmbed('#chart2_week8', myChart20);
+            </script>
+        </div>
+
+    </div>
+    <p>Both graphs support the idea that C02 emissions and Wealth are decoupling </p>
 
 </div>
 
@@ -348,3 +361,4 @@
 
 
 </html>
+
