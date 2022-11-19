@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/annual-co2-emissions-per-country(2).csv"},
+    "transform": [{
+      "pivot": "symbol",
+      "value": "Value",
+      "groupby": ["date"]
+    }],
+    "repeat": {
+      "layer": ["CO2", "GDP"]
+    },
+    "spec": {
+      "title":"GDP Growth vs CO2 emissions Growth, France",
+      "layer": [{
+        "mark": {"type": "line", "stroke": "white", "strokeWidth": 1},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal"},
+          "y": {"field": {"repeat": "layer"}, "type": "quantitative"}
+        }
+      },{
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal"},
+          "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "10 Year average % change"},
+          "stroke": {"datum": {"repeat": "layer"}, "type": "nominal"}
+        }
+      }]
+    }
+  }
