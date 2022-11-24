@@ -1,0 +1,98 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "This version mends the problem match caused by one variable being a number and the other being string. See 004 Afghanistan for example",
+
+  "title": {
+    "text": "Cost-development of Renewable H2",
+    "subtitle":["Predicted cost of producing renewable hydrogen accross countries (2020-2050)",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "middle",
+    "color": "black"
+  },
+
+  "params": [    
+      {"name":"yearSelector", "value":2020,
+        "bind":{
+          "input": "range",
+          "min": 2020, 
+          "max": 2050, 
+          "step": 10,
+          "name": "Year:"}}],
+
+  "view": {"fill":"white"},
+
+  "config": {
+    "background":"white",
+    "view": {"stroke": "trasparent"}},
+  
+  "width": 600,
+  "height": 300,
+  
+  "data": {
+    "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"}
+      },
+
+      "transform": [
+        {"calculate":"parseInt(datum.id)", "as":"id_N"},
+              {
+      "lookup": "id_N",
+      "from": {
+        "key": "id",
+        "fields": ["name"],
+        "data": {"url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/dataWorldCountryNamesIDs.json"}}
+        },
+        
+        {
+          "lookup": "name",
+
+          "from":{
+            "data":{
+              "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/HydrogenPriceByCountry.csv"},
+              "format":{"type":"csv"},
+              "key": "Country",
+              "fields": ["2020"]}
+              
+        },
+      ],
+
+  // "transform":[
+  //   {"calculate": "toNumber(yearSelector)", "as":"yearS"},
+  //   {"filter":"datum.yearS == datum.Year"},
+
+  //   {"fold":[
+      
+  //   ]}
+  // ],  
+
+ "projection": {
+      "type": "naturalEarth1"
+      },
+
+      "mark": {
+          "type": "geoshape",
+          // "fill": "lightgray",
+          "stroke": "rgb(50, 50, 50)",
+          "strokeWidth":0.1},
+      
+      "encoding": {
+
+        "tooltip":[
+          {"field":"name", "title":"Country" }, 
+          {"field":"2020", "title":"€/KG", "type":"quantitative"}],
+
+        "color":{
+          "field":"2020",
+          "type":"quantitative",
+          "scale":{"scheme":"bluegreen"},
+          "title":"Year 2020: €/KG",
+          "legend":{
+            "orient":"bottom",
+            "direction": "horizontal"}
+          }
+        }
+
+    }
