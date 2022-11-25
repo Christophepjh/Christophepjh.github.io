@@ -1,0 +1,524 @@
+[
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1995,
+    "Value": 0.841507149
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1996,
+    "Value": 0.848106048
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1997,
+    "Value": 0.861247503
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1998,
+    "Value": 0.876935916
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1999,
+    "Value": 0.884515428
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2000,
+    "Value": 0.898137321
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2001,
+    "Value": 0.902535548
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2002,
+    "Value": 0.90867444
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2003,
+    "Value": 0.916078658
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2004,
+    "Value": 0.938149009
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2005,
+    "Value": 0.947887793
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2006,
+    "Value": 0.962469254
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2007,
+    "Value": 0.97132606
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2008,
+    "Value": 0.967945078
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2009,
+    "Value": 0.951829108
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2010,
+    "Value": 0.968225456
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2011,
+    "Value": 0.982241615
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2012,
+    "Value": 0.982484387
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2013,
+    "Value": 0.987362355
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2014,
+    "Value": 0.991622783
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2015,
+    "Value": 1
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2016,
+    "Value": 1.003398995
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2017,
+    "Value": 1.016378139
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2018,
+    "Value": 1.02473151
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2019,
+    "Value": 1.031667152
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2020,
+    "Value": 0.956784451
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2021,
+    "Value": 0.996546748
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2022,
+    "Value": 0.997819664
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2023,
+    "Value": 1.002769447
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1995,
+    "Value": 0.873210279
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1996,
+    "Value": 0.880266518
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1997,
+    "Value": 0.897073318
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1998,
+    "Value": 0.90235226
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1999,
+    "Value": 0.903426082
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2000,
+    "Value": 0.911920899
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2001,
+    "Value": 0.931072413
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2002,
+    "Value": 0.934052052
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2003,
+    "Value": 0.937578237
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2004,
+    "Value": 0.941146747
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2005,
+    "Value": 0.950858953
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2006,
+    "Value": 0.981780514
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2007,
+    "Value": 0.995061128
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2008,
+    "Value": 0.98798973
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2009,
+    "Value": 0.930773396
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2010,
+    "Value": 0.965025539
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2011,
+    "Value": 0.991523064
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2012,
+    "Value": 0.98632593
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2013,
+    "Value": 0.984018736
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2014,
+    "Value": 0.997035328
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2015,
+    "Value": 1
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2016,
+    "Value": 1.008817468
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2017,
+    "Value": 1.025041268
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2018,
+    "Value": 1.021182342
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2019,
+    "Value": 1.022956991
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2020,
+    "Value": 0.989275547
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2021,
+    "Value": 1.013391437
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2022,
+    "Value": 1.019113329
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2023,
+    "Value": 1.015086042
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1995,
+    "Value": 0.808692213
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1996,
+    "Value": 0.816490414
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1997,
+    "Value": 0.838436089
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1998,
+    "Value": 0.856216884
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 1999,
+    "Value": 0.869922222
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2000,
+    "Value": 0.895121807
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2001,
+    "Value": 0.906893433
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2002,
+    "Value": 0.915297931
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2003,
+    "Value": 0.934601955
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2004,
+    "Value": 0.946166721
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2005,
+    "Value": 0.96064719
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2006,
+    "Value": 0.971700811
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2007,
+    "Value": 0.988459812
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2008,
+    "Value": 0.97858995
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2009,
+    "Value": 0.949594433
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2010,
+    "Value": 0.970257604
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2011,
+    "Value": 0.975634282
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2012,
+    "Value": 0.979125697
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2013,
+    "Value": 0.985454611
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2014,
+    "Value": 0.993499
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2015,
+    "Value": 1
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2016,
+    "Value": 1.006887374
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2017,
+    "Value": 1.021403952
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2018,
+    "Value": 1.026578112
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2019,
+    "Value": 1.031614975
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2020,
+    "Value": 0.925999431
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2021,
+    "Value": 0.998821635
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2022,
+    "Value": 1.032599647
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "GDPHRWKDFORECAST",
+    "TIME": 2023,
+    "Value": 1.024465383
+  }
+]
