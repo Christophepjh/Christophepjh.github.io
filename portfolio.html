@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +59,9 @@
         <hr>
         <h3>Week 1 - Embedding Charts</h3>
         <hr>
-        <p>Chart 1:This chart shows gross GDP from 2005 to 2022 in the UK</p> 
+        <p>In my first week, I set up a <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link2">GitHub</a> reposetry and designed my home page.</p>
+        <p>I added two new charts from the rapidcharts repository, and changed their titles and descriptions.</p>
+        <p>Chart 1:This chart shows gross GDP from 2005 to 2022 in the UK.</p> 
         
 
         <div class="container">
@@ -77,7 +78,7 @@
         <div class="container">   
             <!-- Chart 2 -->
             
-            <p>Chart 2:This chart shows Football from home and away games in England</p> 
+            <p>Chart 2:This chart shows Football from home and away games in England.</p> 
             
         
             <div class="chart" id="Chart3"> 
@@ -93,10 +94,10 @@
     <!-- WEEK 2 -->
     <div class="myWeek1">
         <hr>
-        <h3>Week 2 - Data Workflow</h3>
+        <h3>Week 2 - Two Charts: One replicated and one my original</h3>
         <hr>
-        <p>In my second weeks I linked a live CSV file (chart1) and "fixed" this chart (chart 2) </p> 
-        <p>Chart 1 is the gross IMF lending outstanding</p>
+        <p>In my second week I linked a live CSV file (chart1) and "fixed" this chart (chart 2).</p> 
+        <p>Chart 1 is the gross IMF lending outstanding.</p>
     
     <!-- Chart 1 -->
         <div class="container">
@@ -108,7 +109,7 @@
             </div>
             <!-- Chart 2 -->
             <div>
-            <p>Chart 2: This i the corrected version of the IMF Lending Graph. I have divided lending global GDP. </p>
+            <p>Chart 2: This is the "corrected" version of the IMF Lending Graph which was found in the Financial Times. I have divided lending global GDP. </p>
             </div>
             <div class="chart" id="chart_IMF_adjusted">
                 <script>
@@ -123,41 +124,42 @@
         </div>
     </div>
 <!-- WEEK 3 -->
-<div class="myWeek1">
-    <hr>
-    <h3>Week 3 - Data Workflow</h3>
-    <hr>
-    <p>In my third week I fed data into the Vega visualisation, and used different data dimensions to be mapped onto visual attributes </p> 
-    <p>The first chart shows UK guilt returns as a line chart</p>
-    <p>The second chart shows UK guilt returns as a bar chart </p>
-<!-- Chart 1 -->
-    <div class="container">
-        <div class="chart" id="chart_week3"> 
-            <script>
-                var myChart6 = "week3_visualisation.json";   
-                vegaEmbed('#chart_week3', myChart6);
-            </script>
-        </div>
+    <div class="myWeek1">
+        <hr>
+        <h3>Week 3 - Two Charts: inline data objects and visual encodings</h3>
+        <hr>
+        <p>In my third week I fed data into the Vega visualisation. I used different data dimensions to be mapped onto visual attributes. </p> 
+        <p>I used a minimum of 100 data points and 3 dimensions.</p>
+        <p>The first chart shows Labour Productivuty in three countries and the OECD Average as a stacked bar chart.</p>
         
-        <div class="chart" id="chart2_week3"> 
-            <script>
-                var myChart7 = "week3_vis2.json";   
-                vegaEmbed('#chart2_week3', myChart7);
-            </script>
+    <!-- Chart 1 -->
+        <div class="container">
+            <div class="chart" id="chart_week3"> 
+                <script>
+                    var myChart6 = "week3_visualisation.json";   
+                    vegaEmbed('#chart_week3', myChart6);
+                </script>
+            </div>
+            <p>The second chart shows Labour Productivity as a line chart.</p>
+            <div class="chart" id="chart2_week3"> 
+                <script>
+                    var myChart7 = "week3_vis2.json";   
+                    vegaEmbed('#chart2_week3', myChart7);
+                </script>
+            </div>
+
         </div>
+    <p>Since we have temporal data on the x axis, a line chart is more intuitve than a bar chart.</p>
 
     </div>
-<p>Since we have temporal data on teh x axis, a line chart is more intuitve than a bar chart</p>
-
-</div>
 <!-- WEEK 4 -->
 <div class="myWeek1">
     <hr>
     <h3>Week 4 - One chart: Implement a data scraper of your own. Any source, any data.</h3>
     <hr>
-    <p>In my fourth week I scraped data from the f1 driver ranking list using google colab</p>
-    <p>https://colab.research.google.com/drive/16-9vVOQ0Mz7ARx4mVnFQ7Jd6t4TFQgld#scrollTo=MR8Z_r5vFiEo</p> 
-    <p>This chart shows F1 points rankings by country</p>
+    <p>In my fourth week I scraped data from the f1 driver ranking list using Google Colab. I then cleaned teh data and normalised it into the TIDY format.</p>
+    <p>My google colab python notebook can be found <a href="https://colab.research.google.com/drive/16-9vVOQ0Mz7ARx4mVnFQ7Jd6t4TFQgld#scrollTo=MR8Z_r5vFiEo" id ="link2">here.</a></p> 
+    <p>This chart shows F1 points rankings by country. I chose to use this metric as we don't often see F1 scores by country.</p>
 
 <!-- Chart 1 -->
     <div class="container">
@@ -179,8 +181,8 @@
     <hr>
     <h3> Week 5 - Nine Charts: Build a dashboard</h3>
     <hr>
-    <p>In my fifth week I used an API to collect data from the ONS to build nine different graphs</p>
-    <p>Find my Google colab reposetry <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here</a> </p>
+    <p>In my fifth week I used an API to collect data from the ONS to build nine different graphs.</p>
+    <p>Find my Google colab reposetry <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here.</a> </p>
 </div>   
 
 <div class="container_grid">
@@ -271,10 +273,10 @@
 <!-- Map 1: Scotland with tooltip -->
 <div class="mapContainer">
     <hr>
-    <h3> Week 7 - MAPS</h3>
+    <h3> Week 7 - Two Maps: a base map and a choropleth</h3>
     <hr>
-    <p>In mysSeventh week I created a base map with tooltip and a choropleth map</p>
-    <p>The first map is a regional map of Scotland</p>
+    <p>In my seventh week I created a base map with tooltip and a choropleth map</p>
+    <p>The first map is a regional map of Scotland.</p>
 
     <div class="container">
         <div class="map" id="week7HWmap1">
@@ -285,7 +287,7 @@
         </div>
     </div>
 
-    <p>The second map is the average cost of electricity for the first half of 2022 in EU and some other european countries</p>
+    <p>The second map is the average cost of electricity for the first half of 2022 in EU and some other european countries.</p>
     <div class="container">
         <div class="map" id="week7HWmap2">
             <script>
@@ -305,9 +307,9 @@
     <hr>
     <h3>Week 8 - Festival of Economics</h3>
     <hr>
-    <p>In week 8 I created two charts to support or refute an idea in the Festival of Economics</p> 
-    <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. You can see this effect with the Loess regression</p> 
-    <p>Chart one shows the relationship between GDP per capita and CO2 emissions across the world</p>
+    <p>In week 8 I created two charts to support or refute an idea in the Festival of Economics.</p> 
+    <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. You can see this effect with the Loess regression.</p> 
+    <p>Chart one shows the relationship between GDP per capita and CO2 emissions across the world.</p>
 <!-- Chart 1 -->
     <div class="container">
         <div class="chart" id="chart1_week8"> 
@@ -320,7 +322,7 @@
     </div>
 
 <!-- Chart 2 -->
-    <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s</p>
+    <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s.</p>
     <div class="container">
         <div class="chart" id="chart2_week8"> 
             <script>
@@ -330,7 +332,7 @@
         </div>
 
     </div>
-    <p>Both graphs support the idea that C02 emissions and Wealth are decoupling </p>
+    <p>Both graphs support the idea that C02 emissions and Wealth are decoupling.</p>
 
 </div>
 
@@ -361,4 +363,3 @@
 
 
 </html>
-
