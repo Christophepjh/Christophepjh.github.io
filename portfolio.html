@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,23 +35,20 @@
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <!-- <div class="myWeek1"> -->
-        <h1>Christophe Hooper - Data Science Portfolio</h1>
+    <h1>Christophe Hooper - Data Science Portfolio</h1>
     <!-- </div> -->
 
-    <body>
-        <!-- <div class="myWeek1"> -->
-        <!-- a tags enable you to insert links -->
-            <div class="button_container">
-                <div class="center">
-                <a href="index.html" id="link">Home</a> 
-                <a href="project.html" id="link">Project</a> 
-                <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
-                <p></p>
-                </div>
-            </div>
-        <!-- </div> -->
-    </body>
-    
+
+    <!-- <div class="myWeek1"> -->
+    <!-- a tags enable you to insert links -->
+    <div class="button_container">
+        <a href="index.html" id="link">Home</a> 
+        <a href="project.html" id="link">Project</a> 
+        <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
+        <p></p>
+    </div>
+    <!-- </div> -->
+ 
 
     <!-- WEEK 1 -->
     <div class="myWeek1">
@@ -153,191 +149,222 @@
 
     </div>
 <!-- WEEK 4 -->
-<div class="myWeek1">
-    <hr>
-    <h3>Week 4 - One chart: Implement a data scraper of your own. Any source, any data.</h3>
-    <hr>
-    <p>In my fourth week I scraped data from the f1 driver ranking list using Google Colab. I then cleaned teh data and normalised it into the TIDY format.</p>
-    <p>My google colab python notebook can be found <a href="https://colab.research.google.com/drive/16-9vVOQ0Mz7ARx4mVnFQ7Jd6t4TFQgld#scrollTo=MR8Z_r5vFiEo" id ="link2">here.</a></p> 
-    <p>This chart shows F1 points rankings by country. I chose to use this metric as we don't often see F1 scores by country.</p>
+    <div class="myWeek1">
+        <hr>
+        <h3>Week 4 - One chart: Implement a data scraper of your own. Any source, any data.</h3>
+        <hr>
+        <p>In my fourth week I scraped data from the f1 driver ranking list using Google Colab. I then cleaned teh data and normalised it into the TIDY format.</p>
+        <p>My google colab python notebook can be found <a href="https://colab.research.google.com/drive/16-9vVOQ0Mz7ARx4mVnFQ7Jd6t4TFQgld#scrollTo=MR8Z_r5vFiEo" id ="link2">here.</a></p> 
+        <p>This chart shows F1 points rankings by country. I chose to use this metric as we don't often see F1 scores by country.</p>
 
-<!-- Chart 1 -->
-    <div class="container">
-        <div class="chart" id="chart_week4"> 
-            <script>
-                var myChart8 = "f1_rankings.json";   
-                vegaEmbed('#chart_week4', myChart8);
-            </script>
+    <!-- Chart 1 -->
+        <div class="container">
+            <div class="chart" id="chart_week4"> 
+                <script>
+                    var myChart8 = "f1_rankings.json";   
+                    vegaEmbed('#chart_week4', myChart8);
+                </script>
+            </div>
+
         </div>
 
+
     </div>
-
-
-</div>
 
 
 <!--Week 5-->
-<div class="myWeek1">
-    <hr>
-    <h3> Week 5 - Nine Charts: Build a dashboard</h3>
-    <hr>
-    <p>In my fifth week I used an API to collect data from the ONS to build nine different graphs.</p>
-    <p>Find my Google colab reposetry <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here.</a> </p>
-</div>   
+    <div class="myWeek1">
+        <hr>
+        <h3> Week 5 - Nine Charts: Build a dashboard</h3>
+        <hr>
+        <p>In my fifth week I used an API to collect data from the ONS to build nine different graphs.</p>
+        <p>Find my Google colab reposetry <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here.</a> </p>
+    </div>   
 
-<div class="container_grid">
-    <container class="grid_container">
-        <div class="chart_grid" id="JT28"> 
-            <script>
-                var myChart9 = "week5charts/ONS-JT28.json";   
-                vegaEmbed('#JT28', myChart9);
-            </script>
-        </div>
-    </container>
+    <div class="container_grid">
+        <container class="grid_container">
+            <div class="chart_grid" id="JT28"> 
+                <script>
+                    var myChart9 = "week5charts/ONS-JT28.json";   
+                    vegaEmbed('#JT28', myChart9);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JT3M"> 
-            <script>
-                var myChart10 = "week5charts/ONS-JT3M.json";   
-                vegaEmbed('#JT3M', myChart10);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JT3M"> 
+                <script>
+                    var myChart10 = "week5charts/ONS-JT3M.json";   
+                    vegaEmbed('#JT3M', myChart10);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JSM2"> 
-            <script>
-                var myChart11 = "week5charts/ONS-JSM2.json";   
-                vegaEmbed('#JSM2', myChart11);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JSM2"> 
+                <script>
+                    var myChart11 = "week5charts/ONS-JSM2.json";   
+                    vegaEmbed('#JSM2', myChart11);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JSK8"> 
-            <script>
-                var myChart12 = "week5charts/ONS-JSK8.json";   
-                vegaEmbed('#JSK8', myChart12);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JSK8"> 
+                <script>
+                    var myChart12 = "week5charts/ONS-JSK8.json";   
+                    vegaEmbed('#JSK8', myChart12);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JR3D"> 
-            <script>
-                var myChart13 = "week5charts/ONS-JR3D.json";   
-                vegaEmbed('#JR3D', myChart13);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JR3D"> 
+                <script>
+                    var myChart13 = "week5charts/ONS-JR3D.json";   
+                    vegaEmbed('#JR3D', myChart13);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JQ3V"> 
-            <script>
-                var myChart14 = "week5charts/ONS-JQ3V.json";   
-                vegaEmbed('#JQ3V', myChart14);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JQ3V"> 
+                <script>
+                    var myChart14 = "week5charts/ONS-JQ3V.json";   
+                    vegaEmbed('#JQ3V', myChart14);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JQ3M"> 
-            <script>
-                var myChart14 = "week5charts/ONS-JQ3M.json";   
-                vegaEmbed('#JQ3M', myChart14);
-            </script>
-        </div>
-    </container>
+        <container class="grid_container">
+            <div class="chart_grid" id="JQ3M"> 
+                <script>
+                    var myChart14 = "week5charts/ONS-JQ3M.json";   
+                    vegaEmbed('#JQ3M', myChart14);
+                </script>
+            </div>
+        </container>
 
-    <container class="grid_container">
-        <div class="chart_grid" id="JQ3I"> 
-            <script>
-                var myChart15 = "week5charts/ONS-JQ3I.json";   
-                vegaEmbed('#JQ3I', myChart15);
-            </script>
-        </div>
-    </container>
-            
-    <container class="grid_container">
-        <div class="chart_grid" id="JQ3E"> 
-            <script>
-                var myChart16 = "week5charts/ONS-JQ3E.json";   
-                vegaEmbed('#JQ3E', myChart16);
-            </script>
-        </div>
-    </container>    
-</div>
-
-
-<!-- Week 7 - maps -->
-<!-- Map 1: Scotland with tooltip -->
-<div class="mapContainer">
-    <hr>
-    <h3> Week 7 - Two Maps: a base map and a choropleth</h3>
-    <hr>
-    <p>In my seventh week I created a base map with tooltip and a choropleth map</p>
-    <p>The first map is a regional map of Scotland.</p>
-
-    <div class="container">
-        <div class="map" id="week7HWmap1">
-            <script>
-                var myChart17 = "week7HWmap1.json";
-                vegaEmbed('#week7HWmap1', myChart17);
-            </script>
-        </div>
+        <container class="grid_container">
+            <div class="chart_grid" id="JQ3I"> 
+                <script>
+                    var myChart15 = "week5charts/ONS-JQ3I.json";   
+                    vegaEmbed('#JQ3I', myChart15);
+                </script>
+            </div>
+        </container>
+                
+        <container class="grid_container">
+            <div class="chart_grid" id="JQ3E"> 
+                <script>
+                    var myChart16 = "week5charts/ONS-JQ3E.json";   
+                    vegaEmbed('#JQ3E', myChart16);
+                </script>
+            </div>
+        </container>    
     </div>
 
-    <p>The second map is the average cost of electricity for the first half of 2022 in EU and some other european countries.</p>
-    <div class="container">
-        <div class="map" id="week7HWmap2">
-            <script>
-                var myChart18 = "week7HWmap2.json";
-                vegaEmbed('#week7HWmap2', myChart18);
-            </script>
-        </div>
-    </div>
 
-</div> 
+    <!-- Week 7 - maps -->
+    <!-- Map 1: Scotland with tooltip -->
+    <div class="mapContainer">
+        <hr>
+        <h3> Week 7 - Two Maps: a base map and a choropleth</h3>
+        <hr>
+        <p>In my seventh week I created a base map with tooltip and a choropleth map</p>
+        <p>The first map is a regional map of Scotland.</p>
 
-
-
-</div>
-<!-- WEEK 8 -->
-<div class="myWeek1">
-    <hr>
-    <h3>Week 8 - Festival of Economics</h3>
-    <hr>
-    <p>In week 8 I created two charts to support or refute an idea in the Festival of Economics.</p> 
-    <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. You can see this effect with the Loess regression.</p> 
-    <p>Chart one shows the relationship between GDP per capita and CO2 emissions across the world.</p>
-<!-- Chart 1 -->
-    <div class="container">
-        <div class="chart" id="chart1_week8"> 
-            <script>
-                var myChart19 = "Week8portfolio.json";   
-                vegaEmbed('#chart1_week8', myChart19);
-            </script>
+        <div class="container">
+            <div class="map" id="week7HWmap1">
+                <script>
+                    var myChart17 = "week7HWmap1.json";
+                    vegaEmbed('#week7HWmap1', myChart17);
+                </script>
+            </div>
         </div>
 
-    </div>
-
-<!-- Chart 2 -->
-    <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s.</p>
-    <div class="container">
-        <div class="chart" id="chart2_week8"> 
-            <script>
-                var myChart20 = "Week8portfolio2.json";   
-                vegaEmbed('#chart2_week8', myChart20);
-            </script>
+        <p>The second map is the average cost of electricity for the first half of 2022 in EU and some other european countries.</p>
+        <div class="container">
+            <div class="map" id="week7HWmap2">
+                <script>
+                    var myChart18 = "week7HWmap2.json";
+                    vegaEmbed('#week7HWmap2', myChart18);
+                </script>
+            </div>
         </div>
 
+    </div> 
+
+
+
+
+    <!-- WEEK 8 -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Week 8 - Festival of Economics</h3>
+        <hr>
+        <p>In week 8 I created two charts to support or refute an idea in the Festival of Economics.</p> 
+        <p>This was inspired by George Matson who mentioned the decoupling effect between a countries wealth and CO2 emissions. You can see this effect with the Loess regression.</p> 
+        <p>Chart one shows the relationship between GDP per capita and CO2 emissions across the world.</p>
+    <!-- Chart 1 -->
+        <div class="container">
+            <div class="chart" id="chart1_week8"> 
+                <script>
+                    var myChart19 = "Week8portfolio.json";   
+                    vegaEmbed('#chart1_week8', myChart19);
+                </script>
+            </div>
+
+        </div>
+
+    <!-- Chart 2 -->
+        <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s.</p>
+        <div class="container">
+            <div class="chart" id="chart2_week8"> 
+                <script>
+                    var myChart20 = "Week8portfolio2.json";   
+                    vegaEmbed('#chart2_week8', myChart20);
+                </script>
+            </div>
+
+        </div>
+        <p>Both graphs support the idea that C02 emissions and Wealth are decoupling.</p>
+
     </div>
-    <p>Both graphs support the idea that C02 emissions and Wealth are decoupling.</p>
-
-</div>
 
 
+    <!-- WEEK 9 -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Week 9 - Advanced Charts</h3>
+        <hr>
+        <p>In week 9 I created two charts That use advanced analytics.</p> 
+        <p>Chart one is a bubble chart representing global meat consumption by country.</p>
+    <!-- Chart 1 -->
+        <div class="container">
+            <div class="chart" id="chart1_week9"> 
+                <script>
+                    var myChart20 = "PercapmeatBubble.json";   
+                    vegaEmbed('#chart1_week9', myChart20);
+                </script>
+            </div>
 
+        </div>
+
+    <!-- Chart 2 -->
+        <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s.</p>
+        <div class="container">
+            <div class="chart" id="chart2_week8"> 
+                <script>
+                    var myChart20 = "Week8portfolio2.json";   
+                    vegaEmbed('#chart2_week8', myChart20);
+                </script>
+            </div>
+
+        </div>
+        <p>Both graphs support the idea that C02 emissions and Wealth are decoupling.</p>
+
+    </div>
 
 
 
