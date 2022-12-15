@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title":"Meat consumption vs GDP per capita",
+  "width": 300,"height": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/percapmeat.csv"
+  },
+  "params": [{
+    "name": "view",
+    "select": "interval"
+  }],
+  "mark": {"type":"circle", "opacity":"0.7", "stroke":"black", "strokeWidth":"0.9"},
+  "encoding": {
+    "y": {
+      "field": "KGMeatpercap",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"minExtent": 30},
+      "title":"Per Capita Annual Meat Consumption (KG)"
+    },
+    "x": {
+      "field": "GDP_per_capita",
+      "scale": {"type": "log", "domain":[900,130000]},
+      "axis":{"grid": false},
+      "title":"Log GDP per capita"
+    },
+    "size": {"field": "Population", "type": "quantitative", 
+    "scale":{"range":[20,2000]},
+    "legend":null},
+    "color": {
+      "field": "OECD",
+      "legend":{"orient": "bottom", "title":null}
+      },
+    "tooltip": [
+      {"field":"Country", "type": "nominal"},
+      {"field":"KGMeatpercap", "title":"Per Capita Meat Consumption KG"},
+      {"field":"Population"}
+      ]
+  }
+}
+

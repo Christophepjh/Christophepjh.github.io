@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/attitudes2.csv"},
+  "title":"Public Perception of Meat Substitues",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Substitute Type"
+      
+    },
+    "y": {
+      "field": "percentage",
+      "type": "quantitative",
+      "title": "Percentage (%)"
+    },
+    "color": {
+      "field": "willingness",
+      "type": "nominal",
+      "scale": {
+        "domain": ["1.Very willing", "2.Somewhat willing", "3.Neither willing/unwilling", "4.Don’t know", "5.Somewhat unwilling", "6.Very unwilling",  "7.I’ve already tried this"],
+        "range": ["#019545", "#8dc742", "#ffcc00", "#1bace8", "#f56523", "#ee1b24","#834cb6" ]
+      },
+      "title": "Willingness"
+    }
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+         
+    "title": {
+        "text": "Super Chickens",
+        "subtitle":["GDP, constant prices. National currencies. Source: IMF.",""],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+        
+    "data": {
+        "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/Boiler%20chicken%20data.csv"
+        },
+    
+    "transform": [
+        {"fold":["Average age in days slaughtered", "Average Market weight (KG)", "Feed to Meat conversion (KG of feed for 1 KG of meat)", "Mortality rate (%)"], "as": ["country", "GDP"]}
+        ],
+          
+    "height": 75,
+    "width":300,   
+    
+    "mark": {   
+            "type":"line",
+            "strokeWidth":2,
+            "color":"darkorchid"},    
+    
+    "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "temporal",
+                "title":"Year",
+                "axis":{"grid": false}},
+    
+            "y": {
+                "field": "GDP",
+                "type": "quantitative",
+                "title": null},
+    
+            "facet": {
+                "field": "country",
+                "columns": 1,
+                "title":null}
+    },
+  
+      "resolve": {"scale": {"y": "independent"}}
+  }
