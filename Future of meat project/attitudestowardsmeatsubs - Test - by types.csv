@@ -1,0 +1,22 @@
+﻿category,willingness,type,percentage,plusorminus,posneg
+Cultivated meat,2.Very willing,cat,13,13,13
+Cultivated meat,3.Willing,cat,21,21,21
+Cultivated meat,4.Neither willing/unwilling,cat,17,17,
+Cultivated meat,6.Unwilling,cat,17,-17,-17
+Cultivated meat,7.Very unwilling,cat,26,-26,-26
+Cultivated meat,1.I’ve already tried this,cat,0,0,
+Cultivated meat,5.Don’t know,cat,6,-6,
+edible insects,2.Very willing,cat,10,10,10
+edible insects,3.Willing,cat,17,17,17
+edible insects,4.Neither willing/unwilling,cat,12,12,
+edible insects,6.Unwilling,cat,18,-18,-18
+edible insects,7.Very unwilling,cat,39,-38,-38
+edible insects,1.I’ve already tried this,cat,1,1,
+edible insects,5.Don’t know,cat,3,-3,
+plant based proteins,2.Very willing,cat,32,32,32
+plant based proteins,3.Willing,cat,29,29,29
+plant based proteins,4.Neither willing/unwilling,cat,13,13,
+plant based proteins,6.Unwilling,cat,9,-9,-9
+plant based proteins,7.Very unwilling,cat,9,-9,-9
+plant based proteins,1.I’ve already tried this,cat,7,7,
+plant based proteins,5.Don’t know,cat,1,-3,
