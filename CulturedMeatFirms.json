@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/culturedmeatfirms.csv"},
+    "title":"Development of Cultured Meat Firms",
+  
+    "mark": "bar",
+    "width": 300,
+  
+    "encoding": {
+      "x": {
+        "field": "Area",
+        "type": "nominal",
+        "title": "Country of Development"
+      },
+      "y": {
+        "aggregate": "count",
+        "type": "nominal",
+        "title":"Number of Firms"
+      },
+      "color": {
+        "field": "Type",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Red Meat", "Pork", "Foie gras", "Poultry", "Sea food", "Unspecified", "Other"],
+          "range": ["#eac435", "#345995", "#03cea4", "#fb4d3d", "#ca1551", "Green", "#e76f51"]        
+        },
+        "title": "Weather type",
+        "legend":{"orient":"bottom", "columns":4}
+      },
+      "tooltip":[
+        {"field": "Type", "type": "nominal", "title": "Type"},
+        {"field": "__count", "type": "nominal", "title": "Number"}
+      ]
+    }
+  }
+  

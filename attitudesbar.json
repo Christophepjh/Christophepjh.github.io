@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":{
+    "text":"Public perception of Meat Substitutes",
+    "subtitle":"Are British consumers ready to try meat substitutes? Source:Good Food Institute",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":9
+    },
+  "hconcat": [
+    {
+    "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/attitudestowardsmeatsubs%20-%20Test%20-%20by%20types.csv"},
+    "title":{
+      "text":"Category",
+      "fontSize":10
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "category",
+        "type": "nominal",
+        "title": null,
+        "axis":{
+          "labelAngle":-65
+        }
+      },
+      "y": {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": "Percentage (%)"
+      },
+      "color": {
+        "field": "willingness",
+        "type": "nominal",
+        "scale": {
+          "domain": ["1.I’ve already tried this", "2.Very willing", "3.Somewhat willing", "4.Neither willing/unwilling", "5.Don’t know", "6.Somewhat unwilling", "7.Very unwilling"],
+          "range": ["DarkGreen","#019545", "#8dc742", "lightgrey", "#eeedf0", "#f56523", "#ee1b24"]
+        },
+        "title": "Willingness"
+      },
+            "tooltip":[
+        {"field": "willingness", "type": "nominal", "title": "Type"},
+        {"field":"percentage", "type":"quantitative", "title":"Percentage"}
+      ]
+    }
+  },
+  {"data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/attitudestowardsmeatsubs%20-%20Test%20-%20by%20age.csv"},
+    "mark": "bar",
+      "title":{
+      "text":"Willingenss by age",
+      "fontSize":10
+    },
+    "encoding": {
+      "x": {
+        "field": "category",
+        "type": "nominal",
+        "title": "Cultivated meat",
+        "axis":{
+          "labelAngle":-65
+        }
+        
+      },
+      "y": {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": null,
+        "axis": null
+      },
+      "color": {
+        "field": "willingness",
+        "type": "nominal",
+        
+        "scale": {
+          "domain": ["1.I’ve already tried this", "2.Very willing", "3.Somewhat willing", "4.Neither willing/unwilling", "5.Don’t know", "6.Somewhat unwilling", "7.Very unwilling"  ],
+          "range": ["DarkGreen","#019545", "#8dc742","Grey", "lightgrey", "#f56523" , "#ee1b24"]
+        },
+        "title": "Willingness",
+        "legend":{
+          "labelFontSize":8
+        }
+      },
+      "tooltip":[
+        {"field": "willingness", "type": "nominal", "title": "Type"},
+        {"field":"percentage", "type":"quantitative", "title":"Percentage"}
+      ]
+    }
+  }
+
+  ]
+
+}
