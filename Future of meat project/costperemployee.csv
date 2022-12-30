@@ -1,0 +1,21 @@
+﻿Position,Employees,Base Salary ($),Position total,Benefits Paid
+Chief Executive Officer,1,"245,300","245,300",73590
+Chief Financial Officer,1,"245,300","245,300",73590
+Chief Operations officer,1,"245,300","245,300",73590
+Operations Manager,2,"165,140",330280,99084
+Assistance Manager,6,"136,280",817680,245304
+Operations Engineers,5,"97,670",488350,146505
+Operations Lower Level,30,"52,640",1579200,473760
+Accounting Team,5,"86,140",430700,129210
+Packaging/Shipping Team,5,"36,340",181700,54510
+Product Development,10,"98,610",986100,295830
+Custodial Staff,5,"32,740",163700,49110
+Marketing/PR Team,5,"74,350",371750,111525
+Microbiologists/Scientists,3,"82,670",248010,74403
+Procurement,3,"74,200",222600,66780
+Maintenance Engineers,4,"55,590",222360,66708
+Human Resources,4,"78,970",315880,94764
+Information Technology,4,"88,320",353280,105984
+,94,,"7,447,490",2234247
+average,,,79228.61702,23768.58511
+salary paid per employee ,,,,102997.2021
