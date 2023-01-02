@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/basecost.csv"},
+  "title":{
+    "text":"Penny Pinched",
+    "subtitle":"Cost scenarios for a lab grown a medium size lab grown meat firm",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "subtitlePadding":5
+  },
+  "width":150,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Type",
+      "type": "nominal",
+      "title": "Scenario"
+    },
+    "y": {
+      "field": "CostPerKG",
+      "type": "quantitative",
+      "title":"Cost per KG"
+    },
+    "color": {
+      "field": "Cost category",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Downtime (Zero days/year) ", "Growth Medium", "Labour and Benefits", "Repairs and General Maintenance", "Interest on operating capital (APR)", "Bioreactors and processing equipment", "Other Costs"],
+        "range": ["#03cea4", "#fb4d3d", "#345995","#eac435","Green",  "#ca1551",  "grey"]
+      },
+      "title": "Category"
+    },
+    "tooltip":[
+      {"field":"Cost category", "type":"nominal"},
+      {"field":"CostPerKG", "type":"quantitative", "title":"Cost Per KG"}
+    ]
+  }
+}

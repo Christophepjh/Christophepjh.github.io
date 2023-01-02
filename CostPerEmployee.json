@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/costperemployee.csv"},
+    "title":"Cost of Labour for a Lab Grown Meat Firm",
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Position",
+        "type": "nominal",
+        "title": "Position"
+      },
+      "y": {
+        "field":"Position total",
+        "type": "quantitative",
+        "title":"Cost of Employees ($)"
+      },
+      "color": {
+        "field": "Position",
+        "type": "nominal",
+        "legend":null
+      },
+      "tooltip":[
+        {"field":"Employees", "type":"quantitative", "title":"Number of Employees"},
+        {"field":"Base Salary", "type":"quantitative", "title":"Salary per Employee ($)"}
+      ]
+    }
+  }
+  
+  
