@@ -47,6 +47,20 @@ h1{
     margin-bottom: 15px;
 }
 
+.myWeek2{
+    margin: auto;
+    max-width: 60%;
+    background-color: #efefef;
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #efefef;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+
 
 /* Set the apperance of the class, chart */
 .chart{
@@ -167,10 +181,11 @@ hr{
     flex-flow: row wrap;
     justify-content: center;
     gap: 25px 25px;
-    margin-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     border-style: solid;
     border-color: #c7d0d5;
-    padding: 25px;
+    padding: 5px;
     border-radius: 35px;
     text-align: center;
     
