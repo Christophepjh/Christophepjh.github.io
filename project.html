@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Christophe Hooper Project</title>
+    <title>Christophe Hooper Data Science</title>
 
+    <!-- Link to my style sheet -->
     <link rel="stylesheet" href="project.css">
 
     <!--The next three lines allow the Vega embed-->
@@ -17,37 +18,206 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
+
+<!-- ///////// END HEAD //////// -->
+
+
+
+<!-- /////////// START BODY ////////// -->
+
 <body>
-    <div class="video-container">
-        <video playsinline autoplay muted loop poster="video.mp4">
-            <source src="video.mp4" type="video/mp4">
-        </video>
+
+    <div class="heading">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div> 
     </div>
 
-    <div class="myWeek1">
-        <h1> This is my project</h1>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <!-- <div class="myWeek1"> -->
+    <h2>Is Lab Grown Meat the Future?</h2>
+    <!-- </div> -->
+
+
+    <!-- <div class="myWeek1"> -->
+    <!-- a tags enable you to insert links -->
+    <div class="button_container">
+        <a href="index.html" id="link">Home</a> 
+        <a href="newportfoliotest.html" id="link">Portfolio</a> 
+        <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
+
     </div>
-    <body>
-        <div class="myWeek1">
-        <!-- a tags enable you to insert links -->
-            <div class="button_container">
-                <div class="center">
-                <a href="index.html" id="link">Home</a> 
-                <a href="portfolio.html" id="link">Portfolio</a> 
-                <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link">GitHub</a>
-                <p></p>
-                </div>
+    <!-- </div> -->
+ <!-- Introduction -->
+    <div class="myWeek1">
+        <div>
+            <hr>
+            <h3>Introduction</h3>
+            <hr>
+            <h1>The Future of Meat</h1>
+            <p>In 2013 the first lab grown meat burher was eaten on live TV. Over $300,000 was spent with reseach spanning 2 years, the result being a single burger which food critics described as indistinguishable to real meat. Despite the slow and expensive start, the lab grown meat sector is booming. Today, over 60 firms are developing some form of lab grown meat.</p>
+            <p>In this project, I will explore the lab grown meat market through three sections:</p>
+            <p>	1. Motivation behind the development of lab grown meat</p>
+            <p> 2. Innovation and evolution of the meat industry</p>
+            <p> 3. Adaptation that will be required to move towards lab grown meat</p>   
+        </div>
+    </div>
+<!-- Motivation -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Motivation</h3>
+        <hr>
+        <h1>What problems can lab grown meat solve?</h1>
+        <p>In this section I will look at the trends in global meat production and consumption</p>
+        
+
+        <div class="container">
+            <!-- Chart 1 -->
+            <p>This scatter bubble chart shows the relationship between a nations wealth and meat consumption. A clear positive trend is observed between wealth and meat consumption. We also observe that many of the worlds most populous nations, notably India, have low meat consumption. As these nations develop, demand for meat will rise.</p>
+            <div class="chart" id="Chart1">
+                <script>
+                    var myChart1 = "PercapmeatBubble.json";
+                    vegaEmbed('#Chart1', myChart1);
+                </script>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <p>These maps show the rise in the worlds most popular protein producing animals. The prominence of meat production in chine is evident. 83% of all agricultural land use in dedicated to meat and dairy production, taking up to 30% of the earths land surface and producing 18% of our greenhouse gas emitions.</p>
+            <div class="chart" id="Chart2">
+                <script>
+                    var myChart2 = "concatmaps.json";
+                    vegaEmbed('#Chart2', myChart2);
+                </script>
             </div>
         </div>
-    </body>
 
-    <div class="myWeek1">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quo, aliquam quasi nihil aliquid eaque dicta sit rem, est voluptatibus sunt deserunt doloribus blanditiis corrupti expedita, dolorum temporibus? Impedit quasi saepe iusto, minus id fugiat nisi voluptatum consequuntur mollitia debitis voluptatibus sed qui animi amet repudiandae necessitatibus odit explicabo quis sapiente distinctio nobis autem, ipsa cupiditate. Voluptates doloribus inventore quibusdam ea dolore, atque magnam sed libero praesentium totam optio necessitatibus suscipit quidem nostrum architecto laboriosam ipsa perferendis neque facilis! Dolorem reprehenderit vel nihil explicabo laboriosam officiis dolores quibusdam sed deleniti ratione recusandae similique molestias ipsa veritatis, porro magnam cupiditate exercitationem odio ea quis numquam sapiente enim nesciunt? Cum, illum amet. Numquam magnam explicabo ad perspiciatis ab, aliquid tempore similique. Quia nostrum magni nemo ab dolorum libero, id in eos repellendus iusto et quidem sunt dolores eum natus blanditiis obcaecati, officia inventore ratione? Perferendis distinctio accusamus laboriosam ratione at ad sed odio nulla consequuntur praesentium, sit repellat id excepturi dolores esse suscipit est maiores expedita nihil animi blanditiis. Cupiditate fugiat ipsam, quidem quis accusamus ut? Hic, similique et. Nulla asperiores quidem voluptatibus natus sequi totam possimus quaerat suscipit. Perspiciatis consequatur odio quibusdam molestiae placeat qui, obcaecati tenetur repellat, quisquam, repudiandae dolor. </p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur autem perspiciatis distinctio saepe quia, esse tenetur quas obcaecati exercitationem dolore eos nobis, neque laudantium repellat, eligendi itaque laboriosam unde sint! Voluptatum, similique laudantium, molestias deleniti at quod animi aliquid ut fugit doloribus corrupti rerum perspiciatis recusandae totam in dignissimos ipsum rem ratione officiis exercitationem facere dolor vel! Possimus debitis culpa quisquam, officia incidunt obcaecati libero fuga nam nihil mollitia ea sapiente quidem quis tempora, esse facilis ut vitae impedit. Doloribus, quibusdam iusto? Reprehenderit, quae necessitatibus iusto cupiditate assumenda unde laborum aliquid eos? Provident quaerat, aspernatur deserunt officiis nam dolores ad cum? Maiores voluptate quibusdam accusantium enim, officia praesentium obcaecati, provident nam sapiente labore quam dolore debitis ullam tenetur illo fuga tempora earum recusandae, incidunt suscipit laudantium eligendi voluptatum. Accusamus quasi sapiente perferendis pariatur perspiciatis voluptas obcaecati repellendus provident? Maiores omnis numquam velit nostrum, vitae ipsam expedita blanditiis minima, mollitia deserunt similique itaque atque corrupti perspiciatis dolore aut sit, eius aliquid ea possimus. Maiores tempora commodi debitis beatae, ipsam quae numquam, asperiores incidunt totam perferendis molestiae maxime, laborum inventore? Quo, quidem excepturi nulla provident saepe reiciendis ex rerum voluptas! Quidem impedit eum officiis debitis consequuntur nisi provident animi nemo, omnis quibusdam?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quis natus necessitatibus iste quidem, quos nobis repellendus sint voluptatibus soluta doloribus error quas odit maxime beatae corrupti earum, ex deleniti architecto aut eaque eum laboriosam sequi! Numquam dolorum ea facilis! Itaque, facilis est corrupti minima dignissimos iste quisquam accusantium optio aut quaerat deserunt quam similique error officiis? Id ratione laudantium pariatur corporis earum, amet, sapiente quisquam officia exercitationem expedita facilis, nobis atque ab obcaecati incidunt nihil quam aspernatur sit officiis vel. Eius sit aperiam fugit culpa est, obcaecati architecto modi porro unde atque, dicta laborum exercitationem saepe totam impedit magni dignissimos ipsam maxime fuga expedita. Facilis nemo sunt dolor neque possimus officiis velit, debitis obcaecati magni harum ipsum illo dolorem eum perspiciatis vero nam vitae quos facere. Fugiat tempora officiis, voluptatem sunt delectus, porro ipsa repellat soluta numquam labore nihil sint veritatis consequatur. Maiores ea ipsa dolorem recusandae, dolor commodi vitae ad eius in, deserunt dolorum quas at sit atque asperiores, eaque animi consequuntur iusto reprehenderit minima explicabo. Dolorum numquam, facilis aspernatur, inventore accusamus eos quidem neque sint maiores aliquid, dolore obcaecati ad possimus perspiciatis reiciendis esse ut vel quis vitae ex adipisci enim pariatur! Eius totam expedita nisi excepturi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quam ipsam ipsum odio neque vel aliquid veritatis tempore optio quas amet voluptas, omnis labore. Cupiditate maxime porro sapiente, modi quis dolorem eligendi qui officia aliquid? Delectus aut ipsam magni aperiam culpa. Sed numquam sunt accusantium atque maxime ipsa nihil animi, provident quibusdam nesciunt non recusandae quo inventore ea ratione incidunt mollitia asperiores minus consectetur optio unde laboriosam doloremque eligendi? Voluptatem earum cupiditate impedit sapiente adipisci fuga dolorum eligendi nulla. Consectetur dolor debitis, aut corrupti eos incidunt a ex, velit delectus perferendis maiores voluptate quibusdam deserunt? Dolores, tenetur magni dolor ducimus nemo error adipisci, sit officia consequuntur cumque ullam optio. Suscipit dolorum molestiae eaque architecto quia laboriosam iure a asperiores minus dicta, quam delectus sequi exercitationem deserunt cum? Eaque molestias voluptatum temporibus corrupti, labore vitae a accusantium! Deserunt nam laborum iusto minus ipsum vitae iure, odit tenetur quas debitis aliquam labore velit nemo totam aspernatur expedita reiciendis quibusdam autem hic molestiae, omnis quis! Recusandae laboriosam distinctio unde perferendis veniam, quia omnis ex cumque odio cupiditate! Odio tempore obcaecati alias dolore, quia possimus cumque ratione adipisci voluptatem ut illo magni, aperiam nemo mollitia? Minima corrupti voluptatem iste illum non dolores repellendus odio!</p>
+        <div class="container">
+            <p>Food security is a real issue for countries that do not have enough land to feed its population. This API shows the difference between UK meat imports and exports. On average, the UK imports three times more meat than it exports. Lab grown meat production would be far less dependent on land area.</p>
+            <div class="chart" id="Chart3">
+                <script>
+                    var myChart3 = "meat_trade_balance.json";
+                    vegaEmbed('#Chart3', myChart3);
+                </script>
+            </div>
+        </div>
+
+
     </div>
+    
+<!-- Innovation -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Innovation</h3>
+        <hr>
+        <h1>Is lab grown meat a feasible alternative?</h1> 
+        <p>In this section I look at the past innovations in the meat market and devlopments in the lab grown meat sector.</p>
+    
+    <!-- Chart 4 -->
+        <div class="container">
+            <p>We have turned the broiler chicken into a meat producing machine. Data scraped from teh US National Chicken Council shows the evolution of the broiler chicken from 1925 to 2021. Chickens today produce more meat, develop faster, die less and eat less food than their ancestors. However, this development is slowing. Approximately 69 billion chickens are killed every year.</p>
+            <div class="chart" id="chart4"> 
+                <script>
+                    var myChart4 = "broilerchickensize2.json";   
+                    vegaEmbed('#chart4', myChart4);
+                </script>
+            </div>
+            
+        </div>
+     <!-- Chart 5 -->
+        <div class="container">
+            <p>Lab grown meat producers are developing a wide range of meat products. Thsi data scraped from Wikipedia shows where and what lab grown meat producers are making. Silicon Valley, Israel and the Netherlands are pioneering development. Singapore is leading in the adoption of lab grown meat.</p>
+            <div class="chart" id="chart5"> 
+                <script>
+                    var myChart5 = "CulturedMeatFirms.json";   
+                    vegaEmbed('#chart5', myChart5);
+                </script>
+            </div>
+            
+        </div>
+        <!-- Chart 6 -->
+        <div class="container">
+            <p>Many market analysts predic lab grown meat will never be widely adopted due to its high production costs. This graph shows the predicted costs of producing lab grown meat in the US. Cell culture mediums, bioreactors and labour make up the largest costs. This paper predicsts the minimum cost of lab grown meat to be 63$/KG.</p>
+            <div class="chart" id="chart6"> 
+                <script>
+                    var myChart6 = "costofinputs.json";   
+                    vegaEmbed('#chart6', myChart6);
+                </script>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- Adaptation -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Adaptation</h3>
+        <hr>
+        <h1>How will we transition to lab grown meat?</h1>
+        <p>Lab grown meat will never be widely adopted if consumers are suspicious of them. A common barrier is known as the 'yuk' factor as consumers are sceptical of the meats hygeine.</p> 
+        
+    <!-- Chart 1 -->
+    
+        <div class="container">
+            <p>This graph from a survey of 1,930 UK adults shows attitudes towards lab grown meats by age, and other alternative proteins. We observe consumer hesitance towards lab grown meats with 43% saying they are unqilling to try it. However, younger consumers are more open to them.</p>
+            <div class="chart" id="chartbar"> 
+                <script>
+                    var myChartbar = "attitudesbar.json";   
+                    vegaEmbed('#chartbar', myChartbar);
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conclusion -->
+    <div class="myWeek1">
+        <hr>
+        <h3>Conclusion</h3>
+        <hr>
+        <p> These graphs have shown the past, present and future of the meat industry. For lab grown meats to become viable alternatives to traditional meat, producers will have to overcome the huge cost barrier, whilst consumers will need to overcome the 'yuk' factor. This transition needs to happen to avoid an increase in the environmental costs of meat production.</p> 
+    
+    </div>
+
+
+<!-- My Data -->
+    <div class="myWeek1">
+        <hr>
+        <h3>My data</h3>
+        <hr>
+        <p>I found my data from various sources. In most cases, I either extracted data from websites by scraping them using python which I then transformed to CSV or json format before exporting them to github. I used this approach for graphs 4 and 5.</p>
+        <p>I also used a python scraper to collect data from tabled stored in a PDF, which I used to make graph 6.</p>
+        <p>I used an ONS API to make graph 3. Starting with python to get updated json files which I could then upload to github.</p>
+        <p>Graphs 1,2 and 7 use openly accessible datasets saved as CSV files which are updated infrequently.</p>
+        <p>My biggest challenge was finding data for an API as many exisitng datasets are predictive or are not updated regularly. I also struggled with scraping the PDF to extract tables.</p> 
+    
+    </div>
+
+
+
+    <script>
+
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        
+        
+    
+    </script>
+
+
 </body>
+
+
+
+</html>
+
 
 
 </html>
