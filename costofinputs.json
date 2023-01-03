@@ -3,10 +3,13 @@
   "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/basecost.csv"},
   "title":{
     "text":"Penny Pinched",
-    "subtitle":"Cost scenarios for a lab grown a medium size lab grown meat firm",
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
-    "subtitlePadding":5
+    "subtitle":["Cost scenarios for a medium size lab grown meat firm",
+    "Source: Garrison, Biermacher, Wade Brorsen (2022)",
+    "-",
+    "SC1: zero days downtime, 30% changes in individual costs ($/kg)",
+    "SC2: downtime of 10% of total year (35.5 days/year),", "zero percent reduction in individual costs ($/kg)",
+    "SC3 assumes downtime of 10% of total year (35.5 days/year),"," 30% change in individual costs ($/kg)."
+  ]
   },
   "width":150,
   "mark": "bar",
@@ -14,7 +17,7 @@
     "x": {
       "field": "Type",
       "type": "nominal",
-      "title": "Scenario"
+      "title": null
     },
     "y": {
       "field": "CostPerKG",
@@ -25,10 +28,14 @@
       "field": "Cost category",
       "type": "nominal",
       "scale": {
-        "domain": ["Downtime (Zero days/year) ", "Growth Medium", "Labour and Benefits", "Repairs and General Maintenance", "Interest on operating capital (APR)", "Bioreactors and processing equipment", "Other Costs"],
-        "range": ["#03cea4", "#fb4d3d", "#345995","#eac435","Green",  "#ca1551",  "grey"]
+        "domain": ["Growth Medium", "Labour and Benefits", "Repairs and General Maintenance", "Interest on operating capital (APR)", "Bioreactors and processing equipment", "Other Costs"],
+        "range": ["#03cea4", "#fb4d3d", "#345995","#eac435",  "#ca1551",  "grey"]
       },
-      "title": "Category"
+      "title": "Category",
+      "legend":{
+        "orient":"bottom",
+        "columns":1
+      }
     },
     "tooltip":[
       {"field":"Cost category", "type":"nominal"},

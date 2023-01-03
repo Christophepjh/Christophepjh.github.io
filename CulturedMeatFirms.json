@@ -1,7 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/culturedmeatfirms.csv"},
-    "title":"Development of Cultured Meat Firms",
+    "title":{
+      "text":"What can I make you?",
+      "subtitle":["What lab grown meat producers are making",
+      "Source: Wikipedia"
+    ]
+    },
   
     "mark": "bar",
     "width": 300,

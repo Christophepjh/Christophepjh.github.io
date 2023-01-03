@@ -1,0 +1,90 @@
+{ 
+  "title":{
+    "text":"From Farm to Plane to Table",
+    "subtitle":[
+      "UK meat imports and meat exports",
+      "Source: ONS (API)"
+    ]
+  },
+  "params": [
+  {
+    "name": "minYear",
+    "value": 1997,
+    "bind": {
+    "input": "range",
+    "min": 1997,
+    "max": 2022,
+    "step": 1,
+    "name": "Start year:"
+  }
+},
+{
+  "name": "maxYear",
+  "value": 2022,
+  "bind": {
+    "input": "range",
+    "min": 1997,
+    "max": 2022,
+    "step": 1,
+    "name": "End year:"
+  }
+}
+],
+  "vconcat":[
+    {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "UK Meat Exports"
+    },
+    "width": 175,
+    "height": 200,
+    "data": {
+      
+      "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/ONS-Trade/data_ONS-P2U7.json",
+      "format": {"type": "json", "property": "years"}
+    },
+    "mark": {"type": "line", "color": "#e80000", "strokeWidth": 2, "opacity": 1},
+    "transform": [
+      {"filter": "datum.year>minYear"},
+      {"filter": "datum.year<maxYear"}
+    ],
+
+    "encoding": {
+      "x": {"field": "date", "type": "temporal", "title": null, "axis": {"grid": false}},
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Value (£m)",
+        "axis": {"grid": false}
+      }
+    }
+  },
+  {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "UK Meat Imports"
+    },
+    "width": 175,
+    "height": 200,
+    "data": {
+      
+      "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/ONS-Trade/data_ONS-P28B.json",
+      "format": {"type": "json", "property": "years"}
+    },
+    "mark": {"type": "line", "color": "#e80000", "strokeWidth": 2, "opacity": 1},
+    "transform": [
+      {"filter": "datum.year>minYear"},
+      {"filter": "datum.year<maxYear"}
+    ],
+    "encoding": {
+      "x": {"field": "date", "type": "temporal", "title": null, "axis": {"grid": false}},
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Value (£m)",
+        "axis": {"grid": false}
+      }
+    }
+  }
+]
+}

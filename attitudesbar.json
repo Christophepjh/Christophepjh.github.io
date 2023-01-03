@@ -1,10 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title":{
-    "text":"Public perception of Meat Substitutes",
-    "subtitle":"Are British consumers ready to try meat substitutes? Source:Good Food Institute",
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":9
+    "text":"Yuk!",
+    "subtitle":["Public perception of Meat Substitutes in the UK", "Source:Good Food Institute"]
     },
   "hconcat": [
     {
