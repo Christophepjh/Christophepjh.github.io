@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Super Chickens",
+    "subtitle": "Evolution of the broiler chicken. Source: National Chicken Council",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/Broiler_chicken_data_tidy.csv",
+    "format": {"type": "csv"}
+  },
+  
+  "height": 300,
+  "width": 300,
+  
+  "mark": {"type": "line", "width": 3},
+  
+  "transform": [{"filter": {"selection": "pickSeries"}}],
+  
+  "selection": {
+    "pickSeries": {
+      "type": "single",
+      "fields": ["series"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Average age in months when slaughtered", 
+          "Average Market weight (KG)",
+          "Feed to Meat conversion (KG of feed for 1 KG of meat)",
+          "Mortality rate (%)"
+        ],
+        "name": "Pick a series: "
+      }
+    }
+  },
+ 
+  "encoding": {
+ 
+    "x": {"field": "Year", "type": "temporal", "title": ""},
+ 
+    "y": {"field": "value", "type": "quantitative", "title": ""},
+ 
+    "color": {
+      "field": "series",
+      "type": "nominal",
+      "legend": {"orient": "bottom", "columns":1},
+      "title": ""
+    }
+  }
+}
