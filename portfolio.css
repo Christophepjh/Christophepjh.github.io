@@ -134,7 +134,7 @@ hr{
     padding: 5px;
 
     border: 2px;
-    border-color: #07c300;
+    border-color: #efefef;
     border-style: solid;
     border-radius: 10px;
 
@@ -192,20 +192,20 @@ hr{
 }
 
 .container_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 3px;
-    justify-content: center !important;
-    vertical-align: bottom;
-    text-align: center !important;
-    align-content: center;
-    max-width: 90%;
-    margin:auto;
-    max-width: 1200px;
-    margin-bottom: 15px !important;
-    margin-top: 0px !important;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  justify-content: center !important;
+  vertical-align: bottom;
+  text-align: center !important;
+  align-content: center;
+  max-width: 90%;
+  margin:auto;
+  max-width: 1200px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+
 }
   
   
@@ -216,12 +216,39 @@ hr{
     
   
 }
+
   
 .grid_container:nth-child(4) {
     grid-column: 3;
     grid-row: 2;
 }
   
+.chartdashboard{
+    align-items: center;
+    background-color: white;
+    max-width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.style{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+    align-content: center;
+    max-width: 100%;
+    padding: 20px;     
+    border-width: 3px;
+
+}
+
+
 .chart_grid {
     background-color: white;
     border-style: solid;
