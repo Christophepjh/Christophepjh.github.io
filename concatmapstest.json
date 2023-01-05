@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text": "A Trip to the Farm",
-      "subtitle": "Map showing animal populations by country"
+      "subtitle": ["Map showing animal populations by country", "Source: Food and Agriculture Organization of the United Nation"]
     },
     "params": [
       {
@@ -99,7 +99,7 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "2020", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "€/KG", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
@@ -156,7 +156,7 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "2020", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "€/KG", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
@@ -217,7 +217,7 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "2020", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "€/KG", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
@@ -274,7 +274,7 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "2020", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "€/KG", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
