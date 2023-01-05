@@ -1,0 +1,17 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "title":{
+      "text":"The Farmers of Tomorrow",
+      "subtitle":["The employees required for a lab grown","meat firm producing 540,000KG of product", "Source: Garrison, Biermacher, Wade Brorsen (2022)"],
+      "subtitlePadding":5
+    },
+    "data": {"url":"https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Future%20of%20meat%20project/costperemployee.csv"},
+  
+    "mark": {"type": "arc", "innerRadius": 50, "tooltip":true},
+    "encoding": {
+      "theta": {"field": "Employees", "type": "quantitative"},
+      "color": {"field": "Position", "type": "nominal", "legend":{"orient": "bottom", "columns": 2}}
+    }
+
+  }
