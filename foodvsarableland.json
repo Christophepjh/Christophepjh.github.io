@@ -1,0 +1,1022 @@
+[
+ {
+   "Country Name": "Afghanistan",
+   "Country Code": "AFG",
+   "Percentage_arable": 11.80411818,
+   "KGofMeatPercapperyear": 8.59
+ },
+ {
+   "Country Name": "Albania",
+   "Country Code": "ALB",
+   "Percentage_arable": 22.33576642,
+   "KGofMeatPercapperyear": 47.51
+ },
+ {
+   "Country Name": "Algeria",
+   "Country Code": "DZA",
+   "Percentage_arable": 3.136700044,
+   "KGofMeatPercapperyear": 18.06
+ },
+ {
+   "Country Name": "Angola",
+   "Country Code": "AGO",
+   "Percentage_arable": 3.930376193,
+   "KGofMeatPercapperyear": 23.49
+ },
+ {
+   "Country Name": "Antigua and Barbuda",
+   "Country Code": "ATG",
+   "Percentage_arable": 9.090909091,
+   "KGofMeatPercapperyear": 72.04
+ },
+ {
+   "Country Name": "Argentina",
+   "Country Code": "ARG",
+   "Percentage_arable": 12.41824978,
+   "KGofMeatPercapperyear": 109.38
+ },
+ {
+   "Country Name": "Armenia",
+   "Country Code": "ARM",
+   "Percentage_arable": 15.66561293,
+   "KGofMeatPercapperyear": 45.64
+ },
+ {
+   "Country Name": "Australia",
+   "Country Code": "AUS",
+   "Percentage_arable": 3.997909522,
+   "KGofMeatPercapperyear": 121.6
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Percentage_arable": 16.10445952,
+   "KGofMeatPercapperyear": 87.22
+ },
+ {
+   "Country Name": "Azerbaijan",
+   "Country Code": "AZE",
+   "Percentage_arable": 25.33812393,
+   "KGofMeatPercapperyear": 34.08
+ },
+ {
+   "Country Name": "Bahamas, The",
+   "Country Code": "BHS",
+   "Percentage_arable": 0.799200799,
+   "KGofMeatPercapperyear": 67.04
+ },
+ {
+   "Country Name": "Bangladesh",
+   "Country Code": "BGD",
+   "Percentage_arable": 59.59383883,
+   "KGofMeatPercapperyear": 4.04
+ },
+ {
+   "Country Name": "Barbados",
+   "Country Code": "BRB",
+   "Percentage_arable": 16.27906977,
+   "KGofMeatPercapperyear": 71.37
+ },
+ {
+   "Country Name": "Belarus",
+   "Country Code": "BLR",
+   "Percentage_arable": 28.21349045,
+   "KGofMeatPercapperyear": 81.46
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Percentage_arable": 27.60898283,
+   "KGofMeatPercapperyear": 65.77
+ },
+ {
+   "Country Name": "Belize",
+   "Country Code": "BLZ",
+   "Percentage_arable": 3.945637878,
+   "KGofMeatPercapperyear": 41.09
+ },
+ {
+   "Country Name": "Benin",
+   "Country Code": "BEN",
+   "Percentage_arable": 24.83150053,
+   "KGofMeatPercapperyear": 20.24
+ },
+ {
+   "Country Name": "Bolivia",
+   "Country Code": "BOL",
+   "Percentage_arable": 3.914889689,
+   "KGofMeatPercapperyear": 71.39
+ },
+ {
+   "Country Name": "Bosnia and Herzegovina",
+   "Country Code": "BIH",
+   "Percentage_arable": 20.703125,
+   "KGofMeatPercapperyear": 36.03
+ },
+ {
+   "Country Name": "Botswana",
+   "Country Code": "BWA",
+   "Percentage_arable": 0.458066451,
+   "KGofMeatPercapperyear": 24.44
+ },
+ {
+   "Country Name": "Brazil",
+   "Country Code": "BRA",
+   "Percentage_arable": 6.671580041,
+   "KGofMeatPercapperyear": 99.83
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Percentage_arable": 32.13964628,
+   "KGofMeatPercapperyear": 58.31
+ },
+ {
+   "Country Name": "Burkina Faso",
+   "Country Code": "BFA",
+   "Percentage_arable": 21.92982456,
+   "KGofMeatPercapperyear": 12
+ },
+ {
+   "Country Name": "Cambodia",
+   "Country Code": "KHM",
+   "Percentage_arable": 21.9578518,
+   "KGofMeatPercapperyear": 12.34
+ },
+ {
+   "Country Name": "Cameroon",
+   "Country Code": "CMR",
+   "Percentage_arable": 13.11586385,
+   "KGofMeatPercapperyear": 11.98
+ },
+ {
+   "Country Name": "Canada",
+   "Country Code": "CAN",
+   "Percentage_arable": 4.295199758,
+   "KGofMeatPercapperyear": 82.62
+ },
+ {
+   "Country Name": "Cabo Verde",
+   "Country Code": "CPV",
+   "Percentage_arable": 12.40694789,
+   "KGofMeatPercapperyear": 32.18
+ },
+ {
+   "Country Name": "Central African Republic",
+   "Country Code": "CAF",
+   "Percentage_arable": 2.889338342,
+   "KGofMeatPercapperyear": 35.9
+ },
+ {
+   "Country Name": "Chad",
+   "Country Code": "TCD",
+   "Percentage_arable": 4.129606099,
+   "KGofMeatPercapperyear": 26.48
+ },
+ {
+   "Country Name": "Chile",
+   "Country Code": "CHL",
+   "Percentage_arable": 1.724202859,
+   "KGofMeatPercapperyear": 83.16
+ },
+ {
+   "Country Name": "China",
+   "Country Code": "CHN",
+   "Percentage_arable": 12.67701782,
+   "KGofMeatPercapperyear": 60.59
+ },
+ {
+   "Country Name": "Colombia",
+   "Country Code": "COL",
+   "Percentage_arable": 5.424966201,
+   "KGofMeatPercapperyear": 55.9
+ },
+ {
+   "Country Name": "Congo, Rep.",
+   "Country Code": "COG",
+   "Percentage_arable": 1.610541728,
+   "KGofMeatPercapperyear": 40.11
+ },
+ {
+   "Country Name": "Costa Rica",
+   "Country Code": "CRI",
+   "Percentage_arable": 4.925577752,
+   "KGofMeatPercapperyear": 53.55
+ },
+ {
+   "Country Name": "Cote d'Ivoire",
+   "Country Code": "CIV",
+   "Percentage_arable": 11.00628931,
+   "KGofMeatPercapperyear": 12.38
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Percentage_arable": 14.59867057,
+   "KGofMeatPercapperyear": 75.29
+ },
+ {
+   "Country Name": "Cuba",
+   "Country Code": "CUB",
+   "Percentage_arable": 28.02119461,
+   "KGofMeatPercapperyear": 55.47
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Percentage_arable": 10.20887446,
+   "KGofMeatPercapperyear": 72.82
+ },
+ {
+   "Country Name": "Czechia",
+   "Country Code": "CZE",
+   "Percentage_arable": 32.32741873,
+   "KGofMeatPercapperyear": 82.78
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Percentage_arable": 59.185,
+   "KGofMeatPercapperyear": 70.82
+ },
+ {
+   "Country Name": "Djibouti",
+   "Country Code": "DJI",
+   "Percentage_arable": 0.086281277,
+   "KGofMeatPercapperyear": 15.04
+ },
+ {
+   "Country Name": "Dominica",
+   "Country Code": "DMA",
+   "Percentage_arable": 8,
+   "KGofMeatPercapperyear": 55.02
+ },
+ {
+   "Country Name": "Dominican Republic",
+   "Country Code": "DOM",
+   "Percentage_arable": 18.15359139,
+   "KGofMeatPercapperyear": 55.24
+ },
+ {
+   "Country Name": "Ecuador",
+   "Country Code": "ECU",
+   "Percentage_arable": 4.159284909,
+   "KGofMeatPercapperyear": 45.22
+ },
+ {
+   "Country Name": "Egypt, Arab Rep.",
+   "Country Code": "EGY",
+   "Percentage_arable": 2.925278819,
+   "KGofMeatPercapperyear": 26.29
+ },
+ {
+   "Country Name": "El Salvador",
+   "Country Code": "SLV",
+   "Percentage_arable": 34.43532819,
+   "KGofMeatPercapperyear": 30.52
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Percentage_arable": 15.88304094,
+   "KGofMeatPercapperyear": 63.63
+ },
+ {
+   "Country Name": "Eswatini",
+   "Country Code": "SWZ",
+   "Percentage_arable": 10.1744186,
+   "KGofMeatPercapperyear": 27.6
+ },
+ {
+   "Country Name": "Ethiopia",
+   "Country Code": "ETH",
+   "Percentage_arable": 14.15015737,
+   "KGofMeatPercapperyear": 5.4
+ },
+ {
+   "Country Name": "Fiji",
+   "Country Code": "FJI",
+   "Percentage_arable": 3.995621237,
+   "KGofMeatPercapperyear": 43.85
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Percentage_arable": 7.3769413,
+   "KGofMeatPercapperyear": 76.69
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Percentage_arable": 33.72136052,
+   "KGofMeatPercapperyear": 83.04
+ },
+ {
+   "Country Name": "French Polynesia",
+   "Country Code": "PYF",
+   "Percentage_arable": 0.720253529,
+   "KGofMeatPercapperyear": 96.08
+ },
+ {
+   "Country Name": "Gabon",
+   "Country Code": "GAB",
+   "Percentage_arable": 1.261303217,
+   "KGofMeatPercapperyear": 59.2
+ },
+ {
+   "Country Name": "Gambia, The",
+   "Country Code": "GMB",
+   "Percentage_arable": 43.47826087,
+   "KGofMeatPercapperyear": 7.82
+ },
+ {
+   "Country Name": "Georgia",
+   "Country Code": "GEO",
+   "Percentage_arable": 4.662541373,
+   "KGofMeatPercapperyear": 31.83
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Percentage_arable": 33.6949366,
+   "KGofMeatPercapperyear": 87.78
+ },
+ {
+   "Country Name": "Ghana",
+   "Country Code": "GHA",
+   "Percentage_arable": 11.65509361,
+   "KGofMeatPercapperyear": 13.73
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Percentage_arable": 16.62441738,
+   "KGofMeatPercapperyear": 71.69
+ },
+ {
+   "Country Name": "Grenada",
+   "Country Code": "GRD",
+   "Percentage_arable": 8.823529412,
+   "KGofMeatPercapperyear": 59.39
+ },
+ {
+   "Country Name": "Guatemala",
+   "Country Code": "GTM",
+   "Percentage_arable": 8.044046286,
+   "KGofMeatPercapperyear": 36.39
+ },
+ {
+   "Country Name": "Guinea",
+   "Country Code": "GIN",
+   "Percentage_arable": 12.61598567,
+   "KGofMeatPercapperyear": 13.05
+ },
+ {
+   "Country Name": "Guinea-Bissau",
+   "Country Code": "GNB",
+   "Percentage_arable": 10.6685633,
+   "KGofMeatPercapperyear": 17.29
+ },
+ {
+   "Country Name": "Guyana",
+   "Country Code": "GUY",
+   "Percentage_arable": 2.133604267,
+   "KGofMeatPercapperyear": 45.22
+ },
+ {
+   "Country Name": "Haiti",
+   "Country Code": "HTI",
+   "Percentage_arable": 38.82438316,
+   "KGofMeatPercapperyear": 17.61
+ },
+ {
+   "Country Name": "Honduras",
+   "Country Code": "HND",
+   "Percentage_arable": 9.116096166,
+   "KGofMeatPercapperyear": 33.09
+ },
+ {
+   "Country Name": "Hong Kong SAR, China",
+   "Country Code": "HKG",
+   "Percentage_arable": 2.952380952,
+   "KGofMeatPercapperyear": 137.07
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Percentage_arable": 47.37015122,
+   "KGofMeatPercapperyear": 79.72
+ },
+ {
+   "Country Name": "Iceland",
+   "Country Code": "ISL",
+   "Percentage_arable": 1.206982544,
+   "KGofMeatPercapperyear": 91.01
+ },
+ {
+   "Country Name": "India",
+   "Country Code": "IND",
+   "Percentage_arable": 52.43362718,
+   "KGofMeatPercapperyear": 3.78
+ },
+ {
+   "Country Name": "Indonesia",
+   "Country Code": "IDN",
+   "Percentage_arable": 14.00784759,
+   "KGofMeatPercapperyear": 11.7
+ },
+ {
+   "Country Name": "Iran, Islamic Rep.",
+   "Country Code": "IRN",
+   "Percentage_arable": 9.327580894,
+   "KGofMeatPercapperyear": 35.98
+ },
+ {
+   "Country Name": "Iraq",
+   "Country Code": "IRQ",
+   "Percentage_arable": 11.51734051,
+   "KGofMeatPercapperyear": 19.06
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Percentage_arable": 6.691827551,
+   "KGofMeatPercapperyear": 78.68
+ },
+ {
+   "Country Name": "Israel",
+   "Country Code": "ISR",
+   "Percentage_arable": 17.88354898,
+   "KGofMeatPercapperyear": 97.01
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Percentage_arable": 22.77937089,
+   "KGofMeatPercapperyear": 80.95
+ },
+ {
+   "Country Name": "Jamaica",
+   "Country Code": "JAM",
+   "Percentage_arable": 11.08033241,
+   "KGofMeatPercapperyear": 58.96
+ },
+ {
+   "Country Name": "Japan",
+   "Country Code": "JPN",
+   "Percentage_arable": 11.41563786,
+   "KGofMeatPercapperyear": 49.33
+ },
+ {
+   "Country Name": "Jordan",
+   "Country Code": "JOR",
+   "Percentage_arable": 2.106330255,
+   "KGofMeatPercapperyear": 37.91
+ },
+ {
+   "Country Name": "Kazakhstan",
+   "Country Code": "KAZ",
+   "Percentage_arable": 10.98529466,
+   "KGofMeatPercapperyear": 64.88
+ },
+ {
+   "Country Name": "Kenya",
+   "Country Code": "KEN",
+   "Percentage_arable": 10.19081421,
+   "KGofMeatPercapperyear": 15.94
+ },
+ {
+   "Country Name": "Kiribati",
+   "Country Code": "KIR",
+   "Percentage_arable": 2.469135802,
+   "KGofMeatPercapperyear": 29.96
+ },
+ {
+   "Country Name": "Kuwait",
+   "Country Code": "KWT",
+   "Percentage_arable": 0.482603816,
+   "KGofMeatPercapperyear": 67.11
+ },
+ {
+   "Country Name": "Kyrgyz Republic",
+   "Country Code": "KGZ",
+   "Percentage_arable": 6.714285714,
+   "KGofMeatPercapperyear": 30.46
+ },
+ {
+   "Country Name": "Lao PDR",
+   "Country Code": "LAO",
+   "Percentage_arable": 6.235701906,
+   "KGofMeatPercapperyear": 30.41
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Percentage_arable": 20.73055105,
+   "KGofMeatPercapperyear": 68.72
+ },
+ {
+   "Country Name": "Lebanon",
+   "Country Code": "LBN",
+   "Percentage_arable": 13.40860215,
+   "KGofMeatPercapperyear": 23.97
+ },
+ {
+   "Country Name": "Lesotho",
+   "Country Code": "LSO",
+   "Percentage_arable": 13.63636364,
+   "KGofMeatPercapperyear": 19.53
+ },
+ {
+   "Country Name": "Liberia",
+   "Country Code": "LBR",
+   "Percentage_arable": 5.1910299,
+   "KGofMeatPercapperyear": 18.27
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Percentage_arable": 33.58343577,
+   "KGofMeatPercapperyear": 81.27
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Percentage_arable": 24.09748064,
+   "KGofMeatPercapperyear": 80.07
+ },
+ {
+   "Country Name": "Madagascar",
+   "Country Code": "MDG",
+   "Percentage_arable": 5.156411138,
+   "KGofMeatPercapperyear": 12.34
+ },
+ {
+   "Country Name": "Malawi",
+   "Country Code": "MWI",
+   "Percentage_arable": 38.18413237,
+   "KGofMeatPercapperyear": 20.34
+ },
+ {
+   "Country Name": "Malaysia",
+   "Country Code": "MYS",
+   "Percentage_arable": 2.514077005,
+   "KGofMeatPercapperyear": 52.89
+ },
+ {
+   "Country Name": "Maldives",
+   "Country Code": "MDV",
+   "Percentage_arable": 13,
+   "KGofMeatPercapperyear": 20.61
+ },
+ {
+   "Country Name": "Mali",
+   "Country Code": "MLI",
+   "Percentage_arable": 5.254099771,
+   "KGofMeatPercapperyear": 23.68
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Percentage_arable": 28.34375,
+   "KGofMeatPercapperyear": 82.05
+ },
+ {
+   "Country Name": "Mauritania",
+   "Country Code": "MRT",
+   "Percentage_arable": 0.388085767,
+   "KGofMeatPercapperyear": 31.06
+ },
+ {
+   "Country Name": "Mauritius",
+   "Country Code": "MUS",
+   "Percentage_arable": 36.94581281,
+   "KGofMeatPercapperyear": 50.89
+ },
+ {
+   "Country Name": "Mexico",
+   "Country Code": "MEX",
+   "Percentage_arable": 10.42053551,
+   "KGofMeatPercapperyear": 64.87
+ },
+ {
+   "Country Name": "Moldova",
+   "Country Code": "MDA",
+   "Percentage_arable": 52.84280936,
+   "KGofMeatPercapperyear": 38.12
+ },
+ {
+   "Country Name": "Mongolia",
+   "Country Code": "MNG",
+   "Percentage_arable": 0.849385399,
+   "KGofMeatPercapperyear": 88.37
+ },
+ {
+   "Country Name": "Montenegro",
+   "Country Code": "MNE",
+   "Percentage_arable": 0.68401487,
+   "KGofMeatPercapperyear": 73
+ },
+ {
+   "Country Name": "Morocco",
+   "Country Code": "MAR",
+   "Percentage_arable": 18.86345328,
+   "KGofMeatPercapperyear": 35.12
+ },
+ {
+   "Country Name": "Mozambique",
+   "Country Code": "MOZ",
+   "Percentage_arable": 7.184821588,
+   "KGofMeatPercapperyear": 9.39
+ },
+ {
+   "Country Name": "Myanmar",
+   "Country Code": "MMR",
+   "Percentage_arable": 16.9461509,
+   "KGofMeatPercapperyear": 58.24
+ },
+ {
+   "Country Name": "Namibia",
+   "Country Code": "NAM",
+   "Percentage_arable": 0.971711062,
+   "KGofMeatPercapperyear": 30.53
+ },
+ {
+   "Country Name": "Nepal",
+   "Country Code": "NPL",
+   "Percentage_arable": 14.74502965,
+   "KGofMeatPercapperyear": 13.55
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Percentage_arable": 30.7989308,
+   "KGofMeatPercapperyear": 75.81
+ },
+ {
+   "Country Name": "New Caledonia",
+   "Country Code": "NCL",
+   "Percentage_arable": 0.326586433,
+   "KGofMeatPercapperyear": 68.6
+ },
+ {
+   "Country Name": "New Zealand",
+   "Country Code": "NZL",
+   "Percentage_arable": 1.864722191,
+   "KGofMeatPercapperyear": 100.89
+ },
+ {
+   "Country Name": "Nicaragua",
+   "Country Code": "NIC",
+   "Percentage_arable": 12.49792255,
+   "KGofMeatPercapperyear": 30.82
+ },
+ {
+   "Country Name": "Niger",
+   "Country Code": "NER",
+   "Percentage_arable": 13.97331649,
+   "KGofMeatPercapperyear": 12.75
+ },
+ {
+   "Country Name": "Nigeria",
+   "Country Code": "NGA",
+   "Percentage_arable": 38.4290216,
+   "KGofMeatPercapperyear": 7.15
+ },
+ {
+   "Country Name": "Korea, Dem. People's Rep.",
+   "Country Code": "PRK",
+   "Percentage_arable": 19.05987875,
+   "KGofMeatPercapperyear": 13.67
+ },
+ {
+   "Country Name": "North Macedonia",
+   "Country Code": "MKD",
+   "Percentage_arable": 16.53449643,
+   "KGofMeatPercapperyear": 36.62
+ },
+ {
+   "Country Name": "Norway",
+   "Country Code": "NOR",
+   "Percentage_arable": 2.195123287,
+   "KGofMeatPercapperyear": 67.46
+ },
+ {
+   "Country Name": "Oman",
+   "Country Code": "OMN",
+   "Percentage_arable": 0.223909532,
+   "KGofMeatPercapperyear": 43.34
+ },
+ {
+   "Country Name": "Pakistan",
+   "Country Code": "PAK",
+   "Percentage_arable": 40.48619759,
+   "KGofMeatPercapperyear": 16.87
+ },
+ {
+   "Country Name": "Panama",
+   "Country Code": "PAN",
+   "Percentage_arable": 7.62277388,
+   "KGofMeatPercapperyear": 65.01
+ },
+ {
+   "Country Name": "Paraguay",
+   "Country Code": "PRY",
+   "Percentage_arable": 11.71155298,
+   "KGofMeatPercapperyear": 54.06
+ },
+ {
+   "Country Name": "Peru",
+   "Country Code": "PER",
+   "Percentage_arable": 2.935019531,
+   "KGofMeatPercapperyear": 24.41
+ },
+ {
+   "Country Name": "Philippines",
+   "Country Code": "PHL",
+   "Percentage_arable": 18.74769427,
+   "KGofMeatPercapperyear": 37.04
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Percentage_arable": 35.62167282,
+   "KGofMeatPercapperyear": 88.7
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Percentage_arable": 10.56760613,
+   "KGofMeatPercapperyear": 94.06
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Percentage_arable": 37.13056328,
+   "KGofMeatPercapperyear": 63.91
+ },
+ {
+   "Country Name": "Russian Federation",
+   "Country Code": "RUS",
+   "Percentage_arable": 7.428098287,
+   "KGofMeatPercapperyear": 76.61
+ },
+ {
+   "Country Name": "Rwanda",
+   "Country Code": "RWA",
+   "Percentage_arable": 46.68423186,
+   "KGofMeatPercapperyear": 9.08
+ },
+ {
+   "Country Name": "Samoa",
+   "Country Code": "WSM",
+   "Percentage_arable": 6.856115108,
+   "KGofMeatPercapperyear": 96.67
+ },
+ {
+   "Country Name": "Sao Tome and Principe",
+   "Country Code": "STP",
+   "Percentage_arable": 4.166666667,
+   "KGofMeatPercapperyear": 14.81
+ },
+ {
+   "Country Name": "Saudi Arabia",
+   "Country Code": "SAU",
+   "Percentage_arable": 1.599285525,
+   "KGofMeatPercapperyear": 54.12
+ },
+ {
+   "Country Name": "Senegal",
+   "Country Code": "SEN",
+   "Percentage_arable": 16.62078637,
+   "KGofMeatPercapperyear": 14.13
+ },
+ {
+   "Country Name": "Serbia",
+   "Country Code": "SRB",
+   "Percentage_arable": 29.67070661,
+   "KGofMeatPercapperyear": 53.48
+ },
+ {
+   "Country Name": "Sierra Leone",
+   "Country Code": "SLE",
+   "Percentage_arable": 21.94513716,
+   "KGofMeatPercapperyear": 8.23
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Percentage_arable": 27.93261231,
+   "KGofMeatPercapperyear": 59.34
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Percentage_arable": 9.136909639,
+   "KGofMeatPercapperyear": 76.39
+ },
+ {
+   "Country Name": "Solomon Islands",
+   "Country Code": "SLB",
+   "Percentage_arable": 0.714540907,
+   "KGofMeatPercapperyear": 11.74
+ },
+ {
+   "Country Name": "South Africa",
+   "Country Code": "ZAF",
+   "Percentage_arable": 9.892093744,
+   "KGofMeatPercapperyear": 60.02
+ },
+ {
+   "Country Name": "Korea, Rep.",
+   "Country Code": "KOR",
+   "Percentage_arable": 14.32365911,
+   "KGofMeatPercapperyear": 70.7
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Percentage_arable": 24.52974077,
+   "KGofMeatPercapperyear": 100.25
+ },
+ {
+   "Country Name": "Sri Lanka",
+   "Country Code": "LKA",
+   "Percentage_arable": 21.33036046,
+   "KGofMeatPercapperyear": 9.04
+ },
+ {
+   "Country Name": "St. Kitts and Nevis",
+   "Country Code": "KNA",
+   "Percentage_arable": 19.23076923,
+   "KGofMeatPercapperyear": 82.5
+ },
+ {
+   "Country Name": "St. Lucia",
+   "Country Code": "LCA",
+   "Percentage_arable": 4.37704918,
+   "KGofMeatPercapperyear": 90.89
+ },
+ {
+   "Country Name": "St. Vincent and the Grenadines",
+   "Country Code": "VCT",
+   "Percentage_arable": 5.128205128,
+   "KGofMeatPercapperyear": 91.04
+ },
+ {
+   "Country Name": "Sudan",
+   "Country Code": "SDN",
+   "Percentage_arable": 11.0759743,
+   "KGofMeatPercapperyear": 21.39
+ },
+ {
+   "Country Name": "Suriname",
+   "Country Code": "SUR",
+   "Percentage_arable": 0.397435897,
+   "KGofMeatPercapperyear": 42.4
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Percentage_arable": 6.273123629,
+   "KGofMeatPercapperyear": 77.06
+ },
+ {
+   "Country Name": "Switzerland",
+   "Country Code": "CHE",
+   "Percentage_arable": 10.07651578,
+   "KGofMeatPercapperyear": 67.53
+ },
+ {
+   "Country Name": "Tajikistan",
+   "Country Code": "TJK",
+   "Percentage_arable": 6.037178471,
+   "KGofMeatPercapperyear": 16.47
+ },
+ {
+   "Country Name": "Tanzania",
+   "Country Code": "TZA",
+   "Percentage_arable": 14.62892301,
+   "KGofMeatPercapperyear": 9.22
+ },
+ {
+   "Country Name": "Thailand",
+   "Country Code": "THA",
+   "Percentage_arable": 32.90336472,
+   "KGofMeatPercapperyear": 27.37
+ },
+ {
+   "Country Name": "Timor-Leste",
+   "Country Code": "TLS",
+   "Percentage_arable": 7.612642905,
+   "KGofMeatPercapperyear": 31.51
+ },
+ {
+   "Country Name": "Togo",
+   "Country Code": "TGO",
+   "Percentage_arable": 48.72219158,
+   "KGofMeatPercapperyear": 12.58
+ },
+ {
+   "Country Name": "Trinidad and Tobago",
+   "Country Code": "TTO",
+   "Percentage_arable": 4.873294347,
+   "KGofMeatPercapperyear": 68.65
+ },
+ {
+   "Country Name": "Tunisia",
+   "Country Code": "TUN",
+   "Percentage_arable": 16.78038105,
+   "KGofMeatPercapperyear": 28.36
+ },
+ {
+   "Country Name": "Turkiye",
+   "Country Code": "TUR",
+   "Percentage_arable": 25.98391435,
+   "KGofMeatPercapperyear": 38.87
+ },
+ {
+   "Country Name": "Turkmenistan",
+   "Country Code": "TKM",
+   "Percentage_arable": 4.128274424,
+   "KGofMeatPercapperyear": 60.21
+ },
+ {
+   "Country Name": "Uganda",
+   "Country Code": "UGA",
+   "Percentage_arable": 34.41053262,
+   "KGofMeatPercapperyear": 9.69
+ },
+ {
+   "Country Name": "Ukraine",
+   "Country Code": "UKR",
+   "Percentage_arable": 56.57345072,
+   "KGofMeatPercapperyear": 46.92
+ },
+ {
+   "Country Name": "United Arab Emirates",
+   "Country Code": "ARE",
+   "Percentage_arable": 0.626584061,
+   "KGofMeatPercapperyear": 62.02
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Percentage_arable": 25.1431381,
+   "KGofMeatPercapperyear": 79.89
+ },
+ {
+   "Country Name": "United States",
+   "Country Code": "USA",
+   "Percentage_arable": 17.24385674,
+   "KGofMeatPercapperyear": 124.1
+ },
+ {
+   "Country Name": "Uruguay",
+   "Country Code": "URY",
+   "Percentage_arable": 12.47800251,
+   "KGofMeatPercapperyear": 57.69
+ },
+ {
+   "Country Name": "Uzbekistan",
+   "Country Code": "UZB",
+   "Percentage_arable": 9.138696469,
+   "KGofMeatPercapperyear": 34.41
+ },
+ {
+   "Country Name": "Vanuatu",
+   "Country Code": "VUT",
+   "Percentage_arable": 1.640689089,
+   "KGofMeatPercapperyear": 36.03
+ },
+ {
+   "Country Name": "Venezuela, RB",
+   "Country Code": "VEN",
+   "Percentage_arable": 2.947678703,
+   "KGofMeatPercapperyear": 40.94
+ },
+ {
+   "Country Name": "Vietnam",
+   "Country Code": "VNM",
+   "Percentage_arable": 22.29812733,
+   "KGofMeatPercapperyear": 63.33
+ },
+ {
+   "Country Name": "Yemen, Rep.",
+   "Country Code": "YEM",
+   "Percentage_arable": 2.202776673,
+   "KGofMeatPercapperyear": 16.86
+ },
+ {
+   "Country Name": "Zambia",
+   "Country Code": "ZMB",
+   "Percentage_arable": 5.111717941,
+   "KGofMeatPercapperyear": 13.12
+ },
+ {
+   "Country Name": "Zimbabwe",
+   "Country Code": "ZWE",
+   "Percentage_arable": 10.33992504,
+   "KGofMeatPercapperyear": 17.67
+ }
+]
