@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+    "data": {"url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/unempvsinf(1).json"},
+    "layer": [
+      {
+        "mark": "point",
+        "encoding": {
+          "x": {"field": "Unemployment", "type": "quantitative"},
+          "y": {"field": "Annual CPI Inflation", "type": "quantitative"},
+          "color":{"field":"year", "legend":null}
+        }
+      },
+      {
+        "mark": {"type": "errorband", "extent": "stdev", "opacity": 0.2},
+        "encoding": {
+          "y": {
+            "field": "Annual CPI Inflation",
+            "type": "quantitative",
+            "title": "Annual CPI Inflation"
+          }
+        }
+      },
+      {
+        "mark": "rule",
+        "encoding": {
+          "y": {
+            "field": "Annual CPI Inflation",
+            "type": "quantitative",
+            "aggregate": "mean"
+          }
+        }
+      }
+    ]
+  }
