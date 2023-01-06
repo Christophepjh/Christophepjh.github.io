@@ -57,7 +57,7 @@
         <hr>
         <h3>Week 1 - Embedding Charts</h3>
         <hr>
-        <p>In my first week, I set up a <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link2">GitHub</a> reposetry and designed my home page.</p>
+        <p>In my first week, I set up a <a href="https://github.com/Christophepjh/Christophepjh.github.io" id="link2">GitHub</a> repository and designed my home page.</p>
         <p>I added two new charts from the rapidcharts repository, and changed their titles and descriptions.</p>
         <p>Chart 1:This chart shows gross GDP from 2005 to 2022 in the UK.</p> 
         
@@ -128,7 +128,7 @@
         <hr>
         <p>In my third week I fed data into the Vega visualisation. I used different data dimensions to be mapped onto visual attributes. </p> 
         <p>I used a minimum of 100 data points and 3 dimensions.</p>
-        <p>The first chart shows Labour Productivuty in three countries and the OECD Average as a stacked bar chart.</p>
+        <p>The first chart shows Labour Productivity in three countries and the OECD Average as a stacked bar chart.</p>
         <p>The second chart shows Labour Productivity as a line chart.</p>
     <!-- Chart 1 -->
         <div class="container">
@@ -180,7 +180,7 @@
         <h3> Week 5 - Nine Charts: Build a dashboard</h3>
         <hr>
         <p>In my fifth week I used an API to collect data from the ONS to build nine different graphs.</p>
-        <p>Find my Google colab reposetry <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here.</a> </p>
+        <p>Find my Google colab repository <a href="https://colab.research.google.com/drive/1Ps_YAcS-W6zqd2Upzm8qW4YHI2npTz7M#scrollTo=WSfh5-1M90um" id="link1">here.</a> </p>
     </div>   
 
     <div class="title">
@@ -325,7 +325,7 @@
         <hr>
         <h3>Week 9 - Advanced Charts</h3>
         <hr>
-        <p>In week 9 I created two charts That use advanced analytics.</p> 
+        <p>In week 9 I created two charts that use advanced analytics.</p> 
         <p>Chart one is a bubble chart representing global meat consumption by country.</p>
     <!-- Chart 1 -->
         <div class="container">
@@ -339,17 +339,17 @@
         </div>
 
     <!-- Chart 2 -->
-        <p>Chart two shows the relationship of GDP growth and CO2 emissions growth in France from the 1820s to the 2010s.</p>
+        <p>Chart two shows the UK inflation vs unemployment rate. Colours represent 10 year periods</p>
         <div class="container">
             <div class="chart" id="chart2_week9"> 
                 <script>
-                    var myChart22 = "Week8portfolio2.json";   
+                    var myChart22 = "Week9Chart2.json";   
                     vegaEmbed('#chart2_week9', myChart22);
                 </script>
             </div>
 
         </div>
-        <p>Both graphs support the idea that C02 emissions and Wealth are decoupling.</p>
+        <p>A clear Phillips curve is not visible.</p>
 
     </div>
 
@@ -357,12 +357,23 @@
         <hr>
         <h3>Week 10 & 11 - Machine Learning</h3>
         <hr>
-        <p>In weeka 10 & 11 I created two charts that used Machine Learninf.</p> 
+        <p>In weeks 10 & 11 I created two charts that used Machine Learning.</p> 
         <p>Chart one is a cluster of stocks representing different food manufacturers, including meat procesesing companies, verticle aggriculture firms, and meat substitute producers.</p>
-    <!-- Chart 1 -->
+        <p>Two main groups appear between meat firms and non meat firms. The notable exception is BRSF being in the non meat firms.</p>
+        <p>Colab can be found <a href="https://colab.research.google.com/drive/1qigxigoGuUtpORkAJffq5qsTCsTCJUsk" id="link2">here</a></p>
+        <!-- Chart 1 -->
         <div class="container">
             <div class="chart" id="chart1_week10"> 
                 <img src = "machine_learning_meatstocks.png"/>   
+            </div>
+
+        </div>
+        <p>Chart 2 is an unsupervised graph of arable land vs meat consumption. My hypothesis was that countries with more arable land would have more meat heavy diets.</p>
+        <p>However, from the graph below, we can see the oposite trend.</p>
+        <p>Colab can be found <a href="https://colab.research.google.com/drive/16HmVpKYtr2Xkh6RgIznMEmSva1v2Xw4S#scrollTo=owHQTSXFrdQc" id="link2">here</a></p>
+        <div class="container">
+            <div class="chart" id="chart2_week10"> 
+                <img src = "arable land vs meat.png"/>   
             </div>
 
         </div>
