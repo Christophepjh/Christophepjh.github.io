@@ -55,7 +55,7 @@
         "hconcat": [
           {
             "title": "Heads of Cattle",
-            "width": 170,
+            "width": 160,
             "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -112,7 +112,7 @@
           },
           {
             "title": "100 Heads of Chicken",
-            "width": 170,
+            "width": 160,
             "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -173,7 +173,7 @@
         "hconcat": [
           {
             "title": "Heads of Sheep",
-            "width": 170,
+            "width": 160,
             "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -230,7 +230,7 @@
           },
           {
             "title": "Heads of Swine",
-            "width": 170,
+            "width": 160,
             "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
