@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text": "A Trip to the Farm",
-      "subtitle": ["Map showing animal populations by country", "Source: Food and Agriculture Organization of the United Nation"]
+      "subtitle": ["Map showing animal populations by country", "Source: Food and Agriculture Organization of the United Nations"]
     },
     "params": [
       {
@@ -55,8 +55,8 @@
         "hconcat": [
           {
             "title": "Heads of Cattle",
-            "width": 150,
-            "height": 150,
+            "width": 170,
+            "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
               "format": {"type": "topojson", "feature": "countries"}
@@ -99,21 +99,21 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "Value", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "Number of Animals", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
                 "type": "quantitative",
-                "scale": {"scheme": "yellowgreen"},
-                "title": "Year 2020: €/KG",
+                "scale": {"scheme": "yellowgreen", "domain":[0,300000000]},
+                "title": "Number",
                 "legend": {"orient": "bottom", "direction": "horizontal"}
               }
             }
           },
           {
             "title": "100 Heads of Chicken",
-            "width": 150,
-            "height": 150,
+            "width": 170,
+            "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
               "format": {"type": "topojson", "feature": "countries"}
@@ -156,13 +156,13 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "Value", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "Number of Animals", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
                 "type": "quantitative",
-                "scale": {"scheme": "yellowgreen"},
-                "title": "Year 2020: €/KG",
+                "scale": {"scheme": "yellowgreen", "domain":[0,300000000]},
+                "title": "Number",
                 "legend": {"orient": "bottom", "direction": "horizontal"}
               }
             }
@@ -173,8 +173,8 @@
         "hconcat": [
           {
             "title": "Heads of Sheep",
-            "width": 150,
-            "height": 150,
+            "width": 170,
+            "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
               "format": {"type": "topojson", "feature": "countries"}
@@ -217,21 +217,21 @@
             "encoding": {
               "tooltip": [
                 {"field": "name", "title": "Country"},
-                {"field": "Value", "title": "€/KG", "type": "quantitative"}
+                {"field": "Value", "title": "Number of Animals", "type": "quantitative"}
               ],
               "color": {
                 "field": "Value_N",
                 "type": "quantitative",
-                "scale": {"scheme": "yellowgreen"},
-                "title": "Year 2020: €/KG",
+                "scale": {"scheme": "yellowgreen", "domain":[0,300000000]},
+                "title": "Number",
                 "legend": {"orient": "bottom", "direction": "horizontal"}
               }
             }
           },
           {
             "title": "Heads of Swine",
-            "width": 150,
-            "height": 150,
+            "width": 170,
+            "height": 130,
             "data": {
               "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
               "format": {"type": "topojson", "feature": "countries"}
@@ -279,8 +279,8 @@
               "color": {
                 "field": "Value_N",
                 "type": "quantitative",
-                "scale": {"scheme": "yellowgreen"},
-                "title": "Year 2020: €/KG",
+                "scale": {"scheme": "yellowgreen", "domain":[0,300000000]},
+                "title": "Number",
                 "legend": {"orient": "bottom", "direction": "horizontal"}
               }
             }
