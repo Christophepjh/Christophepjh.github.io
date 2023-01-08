@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #c7d0d5;
+    background-color: #d6dbdd;
     max-width: 100%;
     margin: auto;
 }
@@ -55,27 +55,28 @@ h2{
 .myWeek1{
     margin: auto;
     max-width: 60%;
-    background-color: #efefef;
+    background-color: #d6dbdd;
 
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: #efefef;
+    border-color: #d6dbdd;
     margin-bottom: 15px;
     padding: 5px;
+    
 }
 
 .myWeek2{
     margin: auto;
     max-width: 60%;
-    background-color: #efefef;
+    background-color: #d6dbdd;
 
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
-    border-color: #efefef;
-    margin-bottom: 12px;
-    margin-top: 20px;
+    border-color: #d6dbdd;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 .footer{
     margin: auto;
@@ -136,7 +137,7 @@ h4{
     gap: 25px 25px;
     margin-top: 12px;
     border-style: solid;
-    border-color: #efefef;
+    border-color: #d6dbdd;
     padding: 5px;
     border-radius: 35px;
     text-align: center;
