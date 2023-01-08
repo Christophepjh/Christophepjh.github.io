@@ -257,7 +257,6 @@ hr{
 .chartdashboard{
     align-items: center;
     background-color: white;
-    width: 100%;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
@@ -266,6 +265,7 @@ hr{
     margin-bottom: 20px;
     margin-right: 0px;
     text-align: center;
+    max-width: 300px;
 }
 
 .style{
@@ -275,7 +275,7 @@ hr{
     margin: auto;
     margin-top: 0px;
     align-content: center;
-    max-width: 100%;
+    max-width: 80%;
     padding: 20px;     
     border-width: 3px;
 }
