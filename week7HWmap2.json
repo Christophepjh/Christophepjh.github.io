@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "height":300,
+    "width":245,
+  
+    "title":["Cost of Electricity: EU and Balkans (€ per kWh)"],
+  
+    "data":{
+      "url":"https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json",
+  
+      "format":{
+        "type":"topojson", "feature":"continent_Europe_subunits"}},
+      
+        "projection": {
+          "type":"equalEarth"
+        },
+  
+        "transform": [
+          {
+            "lookup": "properties.geounit",
+  
+            "from":{
+              "data":{
+                "url": "https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/Electricity%20prices%20for%20household%20consumers%5EJ%20first%20half%202022.csv"},
+              "key": "GEO", 
+              "fields": ["consumercost"]
+              }
+            }
+          
+        ],
+  
+        "mark":{
+          "type": "geoshape",
+          "stroke":"white",
+          "strokeWidth":0.7
+        },
+  
+        "encoding": {
+  
+          "color":{
+            "field":"consumercost",
+            "type":"quantitative" ,
+            "title":"Cost (€)"
+          },
+  
+          "tooltip":{"field":"properties.geounit", "type": "nominal", "title":"Region"}
+        }
+  
+    
+    }
