@@ -38,7 +38,444 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 30px; 
     letter-spacing: 1px; 
+    line-/* Richard Davies, Data Science for Economists */
+
+/* This is my first proper css file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+body{
+    background-color: #d6dbdd;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h3, p{
+    color:#031927;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    letter-spacing: 1px; 
     line-height: 1; 
+    text-align: center;
+}
+h2{
+    color:#031927;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px; 
+    letter-spacing: 1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+h1{
+    color:#031927;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    letter-spacing: 1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+
+.myWeek1{
+    margin: auto;
+    max-width: 60%;
+    background-color: #d6dbdd;
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #d6dbdd;
+    margin-bottom: 15px;
+}
+
+.myWeek2{
+    margin: auto;
+    max-width: 60%;
+    background-color: #d6dbdd;
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #d6dbdd;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.footer{
+    margin: auto;
+    max-width: 100%;
+    background-color: #989898;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    text-align: center;
+    padding: 4px;
+    
+}
+
+h4{
+    color:#031927;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px; 
+    letter-spacing: 1px; 
+    line-height: 1; 
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #ffffff ;
+    margin: auto ;
+    background-color: #ffffff  ;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.chart2{
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #ffffff ;
+    margin: auto ;
+    background-color: #ffffff  ;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+   
+/*container for graphs to be centered*/
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px 25px;
+    margin-top: 25px;
+    border-style: solid;
+    border-color: #d6dbdd;
+    padding: 25px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+
+
+/* hr is just a horizontal line breaking the page up*/
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    color: #07c300;
+    width: 90%;
+    border-top: 3px solid ;
+    border-color: #07c300;
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+.container2{
+    margin: auto;
+    max-width: 850px;
+    background-color:#eddff6;
+    border: solid;
+    border-radius: 5px;
+    border-color:rgb(0, 0, 0);
+    margin-bottom:15px;
+}
+
+
+#link{
+    background-color: #efefef;
+
+    padding: 5px;
+
+    border: 2px;
+    border-color: #efefef;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-size: 20px
+    
+}
+
+#link1{
+
+    font-size: 17px
+
+}
+#link2{
+    color:#031927;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#link:hover{
+
+    background-color: #ec8f85a9;
+
+    border: 2px;
+    border-color: #BA1200;
+    border-style: solid;
+
+    font-size: 20px;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.button_container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #d6dbdd;
+    padding: 5px;
+    border-radius: 35px;
+    text-align: center;
+    
+}
+
+.container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  justify-content: center !important;
+  vertical-align: bottom;
+  text-align: center !important;
+  align-content: center;
+  max-width: 90%;
+  margin:auto;
+  max-width: 1200px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+ 
+}
+  
+  
+  
+.grid_container:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+    
+  
+}
+
+  
+.grid_container:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+}
+  
+.chartdashboard{
+    align-items: center;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.style{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+    align-content: center;
+    max-width: 80%;
+    padding: 20px;     
+    border-width: 3px;
+}
+
+
+.chart_grid {
+    background-color: white;
+    border-style: solid;
+    border-color: #e80000;
+    border-width: 3px;
+    border-radius: .5em;
+    height: 330px;
+    min-width: 100%;
+    text-align: center;
+    padding: 0.2em !important;
+    margin-left: 0px;
+  
+}
+
+.mapContainer {
+    display: block;
+    margin: auto;
+   
+    padding: 20px;
+  
+    background-color: #efefef;
+    border-radius: 10px;
+    
+    max-width: 665px; 
+    margin-bottom: 15px;
+}
+  
+.map {
+    background-color: #ffffff;
+  
+    display:inline-block;
+    justify-content: center;
+    
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin:5px;
+
+}
+
+
+
+
+
+
+/* Style the header: fixed position (always stay at the top) */
+.heading {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #c7d0d5;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+   
+}
+  
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #fd0000;
+    width: 0%;
+}
+
+.vega-embed.has-actions {
+    padding-right: 5px !important;
+    width: 380px
+}
+
+
+/* E.g., a typical phone displays one column, and iPad displays two, and a typical computer screen displays three. */
+/* ------------------------------------------------------------------------------
+	DIFFERENT SCREEN SIZES
+-------------------------------------------------------------------------------*/
+
+/* One column*/
+@media only screen and (min-width: 250px) {
+  .grid_items {
+    grid-template-columns: 100%;
+    max-width: 420px; 
+    margin: 0 auto 0 auto !important;
+	padding: 0 5 0 5; 
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    text-align: center;
+  }
+
+  .wrap {
+    grid-template-columns: 100%;
+    max-width: 360px; 
+    margin: 0 auto 0 auto !important;
+	  padding: 0 5 0 5; 
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    text-align: center;
+  }
+  .grid_items > div {
+    padding: 10px;
+  }
+  .rubric {
+    text-align: left;
+  }
+}
+
+/* Two columns*/
+@media only screen and (min-width: 900px) {
+  .grid_items, .wrap {
+    grid-template-columns: 47.5% 47.5%;
+    max-width: 880px; 
+    margin: 0 auto 0 auto !important;
+	padding: 0 5 0 5; 
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    text-align: left;
+  }
+  .grid_items > div {
+    padding: 10px;
+  }
+}
+
+/* Three columns*/
+@media only screen and (min-width: 1400px) {
+  .grid_items, .wrap {
+    grid-template-columns: 30% 30% 30%;
+    max-width: 1400px; 
+    margin: 0 auto 0 auto !important;
+	padding: 0 5 0 5; 
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+  }
+  
+  .grid_items > div {
+    padding: 10px;
+  }
+}
+
+/* Four columns*/
+@media only screen and (min-width: 1800px) {
+  .grid_items, .wrap {
+    grid-template-columns: 25% 25% 25% 25%;
+    max-width: 1900px; 
+    margin: 0 auto 0 auto !important;
+	padding: 0 5 0 5; 
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+  }
+  .grid_items > div {
+    padding: 10px;
+  }
+}height: 1; 
     text-align: center;
 }
 
