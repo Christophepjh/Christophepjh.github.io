@@ -8,7 +8,7 @@
       "url":"https://raw.githubusercontent.com/Christophepjh/Christophepjh.github.io/main/HumberMapGeoJson.json",
   
       "format":{
-        "type":"topojson", "feature":"lad"}},
+        "type":"topojson", "feature":"eer"}},
       
         "projection": {
           "type":"equalEarth"
